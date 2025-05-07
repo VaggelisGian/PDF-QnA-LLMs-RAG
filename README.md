@@ -19,6 +19,99 @@ Essentially, you upload documents, the system processes and stores them intellig
 
 *This setup was validated using Docker with LM Studio running locally, serving the `mistralai-mistral-7b-instruct-v0.2-smashed` model (Just-in-Time Model Loading OFF, context length ~8000).*
 
+### Batch CLI Functionality
+
+The Batch CLI functionality allows users to query multiple questions at once, either by uploading and processing a document or by querying a pre-processed document. This feature is useful for testing or retrieving answers for a set of predefined questions stored in a JSON file.
+
+---
+
+### How to Use the Batch CLI Feature
+
+#### 1. **Prepare Your Questions**
+   - Create a JSON file containing the questions you want to query. Use the following structure:
+     ```json
+     {
+         "questions": [
+             {
+                 "question": "What are the essential components of the initial pre-hospital assessment in trauma care?",
+                 "use_graph": false
+             },
+             {
+                 "question": "What is the protocol for controlling external hemorrhage?",
+                 "use_graph": true
+             }
+         ]
+     }
+     ```
+   - Save this file (e.g., `test/batch_request.json`) in a location accessible to your scripts.
+
+---
+
+#### 2. **Option 1: Upload and Process a Document**
+   Use the `run_upload_and_batch_test.ps1` script to upload a document, process it, and query your questions in one step.
+
+   **Steps:**
+   1. Open a terminal or PowerShell.
+   2. Run the script with the following command:
+      ```powershell
+      .\test\run_upload_and_batch_test.ps1 -PdfFilePath ".\data\pdf_files\TRAUMA CARE PRE-HOSPITAL MANUAL.pdf"
+      ```
+   3. The script will:
+      - Upload the specified PDF document.
+      - Process the document into a queryable knowledge base.
+      - Query the questions from the JSON file.
+      - Save the results in a JSON file (e.g., `batch_results.json`).
+
+---
+
+#### 3. **Option 2: Query a Pre-Processed Document**
+   If the document has already been uploaded and processed, you can skip the upload step and directly query the questions using the `run_upload_and_batch_test.ps1` script.
+
+   **Steps:**
+   1. Open a terminal or PowerShell.
+   2. Run the script with the following command:
+      ```powershell
+      .\test\run_upload_and_batch_test.ps1 -DocumentTitleToQuery "TRAUMA CARE PRE-HOSPITAL MANUAL.pdf"
+      ```
+   3. The script will:
+      - Query the questions from the JSON file against the pre-processed document.
+      - Save the results in a JSON file (e.g., `batch_results.json`).
+
+---
+
+#### 4. **Understanding the Results**
+   - The output JSON file will have the following structure:
+     ```json
+     {
+         "results": [
+             {
+                 "question": "What are the essential components of the initial pre-hospital assessment in trauma care?",
+                 "use_graph": false,
+                 "answer": "The essential components include ensuring scene safety, assessing the mechanism of injury, performing a structured primary survey, and initiating life-saving interventions.",
+             },
+             {
+                 "question": "What is the protocol for controlling external hemorrhage?",
+                 "use_graph": true,
+                 "answer": "Control of external hemorrhage includes applying direct pressure, using a tourniquet, and employing hemostatic dressings.",
+             }
+         ]
+     }
+     ```
+
+---
+
+### Notes:
+- **Graph vs. Non-Graph Queries**:  
+  - Set `"use_graph": true` to use the GraphRAG approach, which leverages the Neo4j graph database for interconnected context.
+  - Set `"use_graph": false` to use the standard RAG approach, which retrieves answers based on vector similarity.
+
+- **Customizing Output**:  
+  - Modify the scripts to adjust file paths, output locations, or logging preferences as needed.
+
+---
+
+This functionality streamlines the process of querying multiple questions, making it ideal for batch testing or retrieving insights from large documents.
+
 ## Key Features
 
 *   **Interactive Web UI:** Built with Streamlit for easy interaction.
