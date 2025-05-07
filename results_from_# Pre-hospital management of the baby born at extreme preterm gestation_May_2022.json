@@ -1,0 +1,399 @@
+﻿{
+    "questions": [
+        [
+            {
+                "question": "What are the thermal care interventions recommended for extremely preterm babies?",
+                "use_graph": false,
+                "answer": "1. Keep baby swaddled and on a heated mattress.\n2. Maximize ambient ambulance temperature and minimize draughts.\n3. Use warmed blankets if possible.\n4. Place baby into a polythene bag immediately after birth, without drying first.\n5. Prepare the environment for stabilizing the baby on a flat surface off the floor.",
+                "GPT-4-0_answer": "1. Maximize the ambient temperature in the ambulance and minimize draughts.\n2. Use a heated mattress if available.\n3. Use warmed blankets to swaddle the baby if a heated mattress is not available.\n4. Immediately after birth, place the baby in a polyethylene bag up to the neck without drying.\n5. Provide thermal protection during resuscitation on a flat surface off the floor.",
+                "RATING": 95,
+                "NOTES": "Your answer includes all major interventions, though there's a small ambiguity in the order and phrasing (e.g., swaddling may not be used alongside a polythene bag). Very solid overall."
+            },
+            {
+                "question": "List the components of the pre-arrival briefing for the pre-hospital team.",
+                "use_graph": false,
+                "answer": "1. Correct assessment: be aware of and prepared for potential complications during labour and birth that might compromise outcome for either mother or baby, determine the gestation of the baby.\n2. Correct management: provide effective and timely delivery of appropriate interventions in the mother and baby's best interests.\n3. Correct destination: access the most appropriate neonatal and/or maternal expertise at the most appropriate location.\n4. Summon further help if birth is imminent.\n5. Prioritize the mother, ensuring she is stable.\n6. Be aware of and prepared for potential complications during labour and birth.\n7. Access maternity records if available to determine gestation.\n8. Support and multidisciplinary debrief sessions following incidents.\n9. Signpost clinicians to support services within their place of work and externally.\n10. Hospital staff should be aware of and sympathetic to difficult decisions made before arrival and any disagreements discussed sensitively at a later debrief.",
+                "GPT-4-0_answer": "1. Correct assessment – determine gestation, anticipate complications.\n2. Correct management – timely and appropriate interventions.\n3. Correct destination – access the right level of care.\n4. Summon further help if needed.\n5. Prioritize maternal stabilization.\n6. Ensure communication with hospital staff about pre-arrival decisions.\n7. Plan for debrief and support post-incident.",
+                "RATING": 90,
+                "NOTES": "Comprehensive and correct. Some repetition and inclusion of post-arrival/debrief aspects in the 'briefing' section may slightly detract from the focus of the question, but still strong."
+            },
+            {
+                "question": "What are the recommended actions for delayed cord clamping in pre-hospital settings?",
+                "use_graph": false,
+                "answer": "1. Focus on placing the baby into a polythene bag up to the neck immediately after birth, before deferring cord clamping for 60 seconds.\n2. Maintain thermal stability during this period by ensuring the baby is placed on a heated mattress and keeping them swaddled.\n3. Keep the head in neutral position and provide jaw support.\n4. Stimulate the baby gently to breathe.\n5. Continue mask ventilation and assess heart rate at 2-3 minute intervals during this period.",
+                "GPT-4-0_answer": "1. Place the baby into a polyethylene bag without drying.\n2. Delay cord clamping for 60 seconds if baby is stable.\n3. Maintain thermal stability during the delay.\n4. Gently stimulate the baby.\n5. Provide mask ventilation only if needed and assess heart rate.\n6. Ensure baby’s airway is supported in neutral position.",
+                "RATING": 85,
+                "NOTES": "Mostly accurate with some slight extrapolations (e.g., mask ventilation timing and heart rate intervals are not emphasized as strongly in the source). Still a high-quality response."
+            },
+            {
+                "question": "Describe the ventilation strategies for extremely preterm infants in transport.",
+                "use_graph": false,
+                "answer": "1. Use the smallest mask available.\n2. Provide 5 gentle inflation breaths, sustained over 2-3 seconds and then gentle ventilation breaths at approximately 30 breaths per minute in room air.\n3. Maintain baby's head in neutral position.\n4. An adequate heart rate (> 100 beats per minute) can be taken as an indicator of effective ventilation.",
+                "GPT-4-0_answer": "1. Use the smallest appropriate face mask.\n2. Deliver 5 initial inflation breaths over 2–3 seconds.\n3. Follow with gentle ventilations at around 30 breaths per minute.\n4. Use room air initially.\n5. Maintain the head in a neutral position.\n6. Monitor heart rate (>100 bpm) as a sign of effective ventilation.",
+                "RATING": 95,
+                "NOTES": "Accurate and well-aligned with guidance. Minor formatting or phrasing differences only."
+            },
+            {
+                "question": "What maternal factors should be communicated during handover?",
+                "use_graph": false,
+                "answer": "The context does not provide a clear answer to the question regarding specific maternal factors that should be communicated during handover. However, it emphasizes effective communication at the time of early pre alert call and during transport to enable a team to be ready for the baby and parents. It also suggests making parents aware that their baby may show signs of life after birth.",
+                "GPT-4-0_answer": "Maternal factors include gestational age, complications during pregnancy or labour, treatments given (e.g., steroids, antibiotics), any maternal infections, and maternal status during birth. Effective communication and early alert are emphasized.",
+                "RATING": 60,
+                "NOTES": "While your answer notes the importance of communication, it misses key maternal clinical details that should be included in handover, such as infection status, medications, and complications."
+            },
+            {
+                "question": "What are the early indicators of potential resuscitation needs?",
+                "use_graph": false,
+                "answer": "The context does not provide specific information about early indicators of potential resuscitation needs for an extremely preterm baby in the out-of-hospital setting. However, it mentions that signs of life may be difficult to determine at extreme preterm birth and that simple interventions focused on maintaining body temperature and supporting respiration until more highly skilled specialist neonatal help is available are reasonable. It also states that if there is doubt about the baby's condition, it may be appropriate to commence these interventions. The context does not specify any particular indicators or criteria for when to initiate these interventions.",
+                "GPT-4-0_answer": "Indicators include absent or poor respiratory effort, poor muscle tone, and bradycardia (low heart rate). At extreme preterm birth, signs of life may be subtle; any doubt about the baby's condition should lead to initiating resuscitation.",
+                "RATING": 70,
+                "NOTES": "Your answer captures the uncertainty in assessing very preterm infants and the rationale for initiating resuscitation when in doubt. However, naming common indicators like tone or respiratory effort would improve clarity and completeness."
+            },
+            {
+                "question": "What are the critical time targets for stabilisation post-delivery?",
+                "use_graph": false,
+                "answer": "The context does not provide specific time targets for stabilization post-delivery. It emphasizes the importance of correct assessment, management, destination, and communication in the pre-hospital care of extremely preterm babies. The text states that for gestations less than 22 completed weeks, resuscitation should not be attempted, and simple interventions focused on maintaining body temperature and supporting the airway and breathing should be undertaken as a time-critical emergency for the baby. However, it does not provide explicit time targets for these actions.",
+                "GPT-4-0_answer": "There are no specific numerical time targets given, but stabilization should occur as soon as possible after birth with time-critical interventions like thermal protection, airway support, and preparation for transport. Delays can increase the risk of hypothermia and poor outcomes.",
+                "RATING": 90,
+                "NOTES": "Accurate recognition that the document does not offer numerical targets, but you could have emphasized the urgency implied in the narrative. Overall good."
+            },
+            {
+                "question": "How should oxygen be titrated during initial stabilisation?",
+                "use_graph": false,
+                "answer": "The context does not provide information on how oxygen should be titrated during initial stabilisation.",
+                "GPT-4-0_answer": "Start resuscitation in room air (21% oxygen). Titrate oxygen based on response, primarily heart rate and clinical condition. Pulse oximetry guidance is not detailed in the document.",
+                "RATING": 60,
+                "NOTES": "It's true the document does not describe titration protocols in detail, but it does recommend starting with room air. Mentioning that would improve completeness."
+            },
+            {
+                "question": "What is the rationale for using polyethylene wraps?",
+                "use_graph": false,
+                "answer": "The rationale for using polyethylene wraps includes preventing heat loss in extremely preterm babies, maintaining thermal stability during deferred cord clamping, and providing insulation when no radiant heat source is available. There is no evidence of harm from using these wraps, but they are most effective immediately after birth before the baby is dried.",
+                "GPT-4-0_answer": "Polyethylene wraps prevent rapid heat loss in extremely preterm babies, especially immediately after birth before drying. They help maintain thermal stability during deferred cord clamping and in the absence of radiant warmers.",
+                "RATING": 100,
+                "NOTES": "Excellent and complete. Your answer matches the rationale provided in the guidance."
+            },
+            {
+                "question": "Summarize the recommendations for family-centered communication pre-delivery.",
+                "use_graph": false,
+                "answer": "1. Use correct and sensitive language, avoiding medical jargon.\n2. Reflect the parents' terms for their baby.\n3. Be prepared to offer palliative and bereavement care with helpful suggestions around language and practice.\n4. Provide comfort-focused care when agreed upon by parents, making them aware that their baby may show signs of life after birth.\n5. Allow parents time together with their baby, facilitating active involvement in care, including holding and memory making.\n6. Offer opportunities for photographs.",
+                "GPT-4-0_answer": "Use sensitive, non-technical language; adopt the parents’ terminology for their baby; discuss all possible outcomes including palliative care; involve parents in care; support memory-making and bonding even if the prognosis is poor.",
+                "RATING": 100,
+                "NOTES": "Excellent summary that clearly captures the tone and key communication strategies recommended."
+            },
+            {
+                "question": "How should hypothermia be prevented in the field?",
+                "use_graph": false,
+                "answer": "1. Use warmed blankets to maintain the baby’s temperature.\n2. Assess signs of life and commence survival-focused care if necessary.\n3. In case of doubt, use a food grade (or clinical grade) polythene bag along with a heated mattress for effective management in the out-of-hospital setting.\n4. Keep the baby swaddled and on a heated mattress during transfer to hospital.\n5. Maximize ambient ambulance temperature and minimize draughts.\n6. Continue mask ventilation and assess heart rate at 2-3 minute intervals during transfer.",
+                "GPT-4-0_answer": "Prevent heat loss by maximizing ambulance temperature, minimizing draughts, using polyethylene bags without drying, using heated mattresses, and warm blankets. Keep baby swaddled and on heated surfaces during transfer.",
+                "RATING": 95,
+                "NOTES": "Accurate, though some items like 'assess signs of life' or 'ventilation intervals' aren't directly tied to hypothermia prevention. Still, overall strong and context-aware."
+            },
+            {
+                "question": "What checklists are recommended for preparing neonatal transport equipment?",
+                "use_graph": false,
+                "answer": "The context does not provide a specific list of recommended checklists for preparing neonatal transport equipment.",
+                "GPT-4-0_answer": "The document emphasizes the importance of using structured equipment and medication checklists but does not provide a specific checklist. Teams are encouraged to create and use their own standardized lists.",
+                "RATING": 85,
+                "NOTES": "Correct that no list is provided, but stating that the document recommends use of structured checklists would better reflect the guidance."
+            },
+            {
+                "question": "What are the implications of birth weight in pre-hospital management?",
+                "use_graph": false,
+                "answer": "The context does not provide information about specific implications of birth weight in pre-hospital management.",
+                "GPT-4-0_answer": "Birth weight is not explicitly discussed in the document as a factor influencing pre-hospital management. Gestational age and signs of life are emphasized more strongly.",
+                "RATING": 90,
+                "NOTES": "Correct. It’s good to note what's *not* present, and this answer does that. You could add that management decisions are primarily based on gestational age."
+            },
+            {
+                "question": "How should chest rise be assessed during positive pressure ventilation?",
+                "use_graph": false,
+                "answer": "The context does not provide information on how chest rise should be assessed during positive pressure ventilation.",
+                "GPT-4-0_answer": "The document does not describe how to assess chest rise specifically. However, general neonatal practice involves visually observing chest movement and auscultation for breath sounds to confirm effective ventilation.",
+                "RATING": 85,
+                "NOTES": "Correct that it's not detailed, but adding the common clinical context of observation and auscultation would improve the completeness."
+            },
+            {
+                "question": "What are the principles of volume-targeted ventilation in neonates?",
+                "use_graph": false,
+                "answer": "The context does not provide information on the principles of volume-targeted ventilation in neonates.",
+                "GPT-4-0_answer": "Volume-targeted ventilation principles are not covered in the context. The focus is more on immediate stabilization steps in the field rather than intensive care ventilation strategies.",
+                "RATING": 90,
+                "NOTES": "Correct; the document focuses on stabilization rather than NICU ventilator settings. Could be slightly improved by saying this isn’t relevant to the pre-hospital scope."
+            },
+            {
+                "question": "How should FiO2 be adjusted during transport?",
+                "use_graph": false,
+                "answer": "The context does not provide information about adjusting FiO2 during transport.",
+                "GPT-4-0_answer": "No specific guidance on FiO2 adjustment is given. Initial resuscitation is recommended in room air; subsequent titration is not detailed.",
+                "RATING": 85,
+                "NOTES": "Correct, though the initial oxygen recommendation (room air) could be acknowledged for added completeness."
+            },
+            {
+                "question": "What documentation is essential during pre-hospital care?",
+                "use_graph": false,
+                "answer": "The context does not provide information about specific documentation essential during pre-hospital care.",
+                "GPT-4-0_answer": "The document does not outline specific documentation requirements but emphasizes clear communication, team briefing, and early pre-alert to receiving units. Documentation is implied as part of these actions.",
+                "RATING": 80,
+                "NOTES": "Good answer but could reference implied importance of communication, pre-alerts, and verbal handovers even if forms aren’t listed."
+            },
+            {
+                "question": "What is the significance of Apgar scoring in extremely preterm infants?",
+                "use_graph": false,
+                "answer": "The context does not provide information about Apgar scoring specifically for extremely preterm infants.",
+                "GPT-4-0_answer": "Apgar scoring is not mentioned in the document, likely because its use in extremely preterm infants is limited and may not reflect true prognosis or guide early management in the field.",
+                "RATING": 90,
+                "NOTES": "Accurate omission, and the GPT-4 explanation offers helpful context. Your answer is good, but adding why it might be excluded would strengthen it."
+            },
+            {
+                "question": "How should preterm birth at 22 weeks be managed differently from 27 weeks?",
+                "use_graph": false,
+                "answer": "The context does not provide specific steps or indications for managing preterm birth at 22 weeks differently from 27 weeks. However, it does state that active resuscitation is not recommended before 22+0 weeks' gestation and that survival-focused care is unlikely to be successful for babies born between 22+0 and 23+6 weeks in a maternity unit co-located with a neonatal intensive care unit. Instead, comfort-focused (palliative) care should be instigated if the baby survives labour and birth when the prognosis is likely to be poor or an advance care directive is in place. The principles of care include being aware of potential complications during labour and birth, assessing the gestation of the baby, providing effective interventions in the best interests of the mother and baby, and accessing the most appropriate expertise at the most appropriate location.",
+                "GPT-4-0_answer": "At 22 weeks, active resuscitation is generally not recommended; comfort care is the standard. At 27 weeks, full survival-focused care is expected. Management differs in goals (palliative vs. intensive), interventions, and transport urgency.",
+                "RATING": 100,
+                "NOTES": "Comprehensive and well-referenced to the context. This is an excellent and complete answer."
+            },
+            {
+                "question": "Describe the steps of thermoregulation according to the guideline.",
+                "use_graph": false,
+                "answer": "The context does not provide a clear list of steps for thermoregulation according to the guideline. However, it mentions several actions to maintain and support thermal care for extremely preterm babies:\n\n1. Use warmed blankets if possible.\n2. Assumption that the baby will get cold.\n3. Use a polythene bag in combination with swaddling to prevent heat loss immediately after birth, but not before drying the baby.\n4. Maximize ambient temperature and minimize drafts during transportation.\n5. Continue mask ventilation and assess heart rate at 2-3 minute intervals.\n6. Place an early pre-alert information call to the agreed destination.\n7. Use a heated mattress with care, ensuring the baby is wrapped in a towel or blanket in contact with the correct side of the mattress.",
+                "GPT-4-0_answer": "Thermal care steps include: anticipate heat loss; wrap baby in polyethylene bag without drying; use heated mattress; cover with warm blanket; maximize ambient temp; avoid drafts; maintain during transport.",
+                "RATING": 95,
+                "NOTES": "Strong summary, though including the pre-alert and heart rate checks makes the list a bit broader than just thermoregulation. Still very good."
+            },
+            {
+                "question": "What personnel are required for safe management of extreme preterm deliveries?",
+                "use_graph": false,
+                "answer": "The context suggests that paramedics and ambulance clinicians may attend an out of hospital birth of an extremely preterm baby. In such situations, it is recommended to ensure correct assessment, effective and timely delivery of appropriate interventions, accessing the most appropriate neonatal and/or maternal expertise at the most appropriate location, and good communication. However, it does not explicitly state which personnel are required beyond paramedics and ambulance clinicians. Therefore, based on the context provided, no definitive answer can be given for the specific question regarding personnel requirements for safe management of extreme preterm deliveries.\n\nThe context also mentions considering further assistance from a pre-hospital critical care team if needed, but it does not specify whether this is a requirement or an option. Therefore, it cannot be assumed that a pre-hospital critical care team is always required for safe management of extreme preterm deliveries based on the context alone.",
+                "GPT-4-0_answer": "Paramedics and ambulance clinicians are expected to attend. Additional support from a pre-hospital critical care team can be considered based on clinical need, but it's not mandated. Importance is placed on accessing appropriate expertise and coordinated care.",
+                "RATING": 100,
+                "NOTES": "Thorough and nuanced. Properly conveys the lack of prescriptive personnel while capturing the document’s intent around escalating appropriately."
+            },
+            {
+                "question": "What are the essential medications to carry during neonatal retrievals?",
+                "use_graph": false,
+                "answer": "The context does not provide the answer for essential medications to carry during neonatal retrievals.",
+                "GPT-4-0_answer": "Essential medications for neonatal retrievals typically include adrenaline, surfactant, caffeine, prostaglandin E1, anticonvulsants, antibiotics (e.g., ampicillin and gentamicin), glucose, and inotropes like dopamine or dobutamine.",
+                "RATING": 85,
+                "NOTES": "You correctly noted the absence of this information in the context, which is accurate. However, you could have elaborated briefly on what the ideal answer might be if known externally, especially in an evaluation setting."
+            },
+            {
+                "question": "What role does antenatal counseling play in pre-hospital planning?",
+                "use_graph": false,
+                "answer": "The context does not directly address the question regarding the role of antenatal counseling in pre-hospital planning.",
+                "GPT-4-0_answer": "Antenatal counseling is critical in pre-hospital planning as it helps parents prepare emotionally and logistically for potential outcomes, aids decision-making in extreme prematurity, and informs care planning including the extent of resuscitation efforts.",
+                "RATING": 80,
+                "NOTES": "You correctly identified that the context doesn't explicitly address this, which is valid. Still, a small inferential or general clinical note might have shown deeper reasoning."
+            },
+            {
+                "question": "How are saturation targets monitored during stabilization?",
+                "use_graph": false,
+                "answer": "The context does not provide information about monitoring saturation targets during stabilization.",
+                "GPT-4-0_answer": "Saturation targets during stabilization are monitored using pulse oximetry, ideally pre-ductally (e.g., right hand), to ensure appropriate oxygen delivery and avoid hyperoxia or hypoxia, especially in preterm infants.",
+                "RATING": 75,
+                "NOTES": "Your answer is factually accurate with respect to the context. However, briefly mentioning common practice could have improved your score by showing understanding beyond the document."
+            },
+            {
+                "question": "How are thermal interventions, equipment, and outcomes interrelated in pre-hospital preterm care?",
+                "use_graph": true,
+                "answer": "• Place baby in a polythene bag up to the neck immediately after birth and before the cord is cut.\n\n• Swaddle and apply hat as soon as possible, ideally before the cord is cut.\n\n• Keep baby swaddled and on a heated mattress.\n\n• Maximize ambient ambulance temperature and minimize draughts.\n\n• Continue mask ventilation and assess heart rate at 2-3 minute intervals to guide continuing intervention.\n\n• Avoid medical jargon, explain in simple language.\n\n• Be sensitive to the language parents use; if they refer to the baby as “baby”, then mirror their terms.\n\n• Do not use the term \"abortion\" or \"miscarriage\", this is insensitive and inappropriate.\n\n• Avoid trying to minimize the loss or starting sentences with \"at least\".",
+                "GPT-4-0_answer": "Thermal interventions like plastic wrapping, hats, heated mattresses, and controlled ambient temperature are essential to prevent hypothermia in preterm neonates. Proper use of this equipment directly impacts neonatal outcomes by reducing morbidity and mortality.",
+                "RATING": 90,
+                "NOTES": "Good extraction of detailed steps, though the answer could be better structured to highlight the interrelation (i.e., cause and effect on outcomes). Some unrelated points about communication were included unnecessarily."
+            },
+            {
+                "question": "Map the decision-making flow for resuscitation at different gestational ages.",
+                "use_graph": true,
+                "answer": "• If gestation is known to be less than 22 completed weeks , do not attempt resuscitation. Focus on maternal care and comfort care for the baby.\n\n• From 22 +0 weeks' gestation, or if gestation is not known, simple interventions focused on maintaining body temperature and supporting respiration should be undertaken.\n\n• In cases where the gestation is unknown or unclear but may be 22 weeks or more, anticipate survival-focused care for the baby.\n\n• If gestation is known to be less than 22 completed weeks , do not attempt resuscitation.\n\n• From 22 +0 weeks' gestation, or if gestation is not known: • Take steps to ensure thermal stability during the period of deferred cord clamping. • Maintain the head in a neutral position and provide jaw support. • Stimulate the baby gently to breathe.",
+                "GPT-4-0_answer": "Resuscitation decisions are based on gestational age: <22 weeks – comfort care only; 22–24 weeks – individualized, based on parental input and clinical condition; ≥25 weeks – full resuscitation. Key interventions include temperature management and respiratory support.",
+                "RATING": 95,
+                "NOTES": "You captured most of the flow accurately and used structured information well. Minor redundancy in content and some disorganization affected the perfect score."
+            },
+            {
+                "question": "What is the relationship between birth weight, gestational age, and respiratory needs?",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to answer the question about the relationship between birth weight, gestational age, and respiratory needs directly or synthesize a concise answer strictly from the provided context.",
+                "GPT-4-0_answer": "Lower birth weight and earlier gestational age are associated with higher respiratory support needs due to immature lungs, increased risk of respiratory distress syndrome, and underdeveloped surfactant production.",
+                "RATING": 80,
+                "NOTES": "You correctly identified the lack of content in the provided context, but an inferred or general medical insight would have demonstrated more comprehensive understanding."
+            },
+            {
+                "question": "Illustrate the connections among antenatal steroids, birth timing, and neonatal outcomes.",
+                "use_graph": true,
+                "answer": "No relevant information found in the specified document context based on the query keywords.",
+                "GPT-4-0_answer": "Antenatal steroids given before preterm birth accelerate fetal lung maturity, reducing respiratory complications. Timing is key—optimal benefits occur if birth happens within 7 days of steroid administration.",
+                "RATING": 75,
+                "NOTES": "Correct identification of missing context, but again, providing a general understanding would strengthen the answer even in absence of source material."
+            },
+            {
+                "question": "Show how personnel roles interlink with equipment usage during delivery room management.",
+                "use_graph": true,
+                "answer": "• Be aware of and prepared for potential complications during labour and birth that might compromise outcome for either mother or baby.\n\n• If the baby is already born, simultaneous assessment of mother and baby should be undertaken.\n\n• Try to establish the gestation of the baby, this may be through discussion with the mother or family or by reference to any available maternity records.\n\n• Prepare an area for resuscitation, off the floor if possible, and open your maternity pack and newborn resuscitation equipment. - For extreme preterm birth, a preterm mask, a food-grade plastic bag and a heated mattress should be available.\n\n• In cases where the gestation is unknown or unclear but may be 22 weeks or more, anticipate survival-focused care for the baby.\n\n• When the mother is clinically unstable and limited personnel available, acute care of the mother should take precedence over acute care of an extremely preterm baby.",
+                "GPT-4-0_answer": "Roles of personnel (e.g., team leader, airway manager, recorder) are interdependent with equipment use: preparation and correct operation of resuscitation equipment is distributed among team members, with prioritization based on maternal and neonatal condition.",
+                "RATING": 90,
+                "NOTES": "Good capture of scenario-based protocol, but the link between roles and equipment could be more explicitly described (e.g., who operates what and why)."
+            },
+            {
+                "question": "Link the FiO2 titration protocol with time-based saturation targets.",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to link the FiO2 titration protocol with time-based saturation targets.",
+                "GPT-4-0_answer": "The document does not specify a detailed FiO2 titration protocol or exact time-based oxygen saturation targets. It emphasizes initial respiratory support and heart rate assessments every 2–3 minutes but does not give continuous oxygen titration feedback tied to saturation metrics.",
+                "RATING": 95,
+                "NOTES": "Accurate identification of a lack of detailed protocol or saturation targets. Small deduction as it could mention the intervals for heart rate check (as a proxy for physiological monitoring)."
+            },
+            {
+                "question": "How do stabilization practices vary by gestational age?",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to answer the question about how stabilization practices vary by gestational age.",
+                "GPT-4-0_answer": "Stabilization differs notably by gestational age: under 22 weeks, resuscitation is not recommended even if signs of life are present. From 22+0 weeks onward, simple stabilization like thermal care and respiratory support is advised. Above 24 weeks, more active intervention is likely considered.",
+                "RATING": 70,
+                "NOTES": "The answer missed key age-based recommendations clearly detailed in the document. A more nuanced response based on gestational brackets would improve accuracy."
+            },
+            {
+                "question": "Map the care pathway from delivery to transport for an extremely preterm infant.",
+                "use_graph": true,
+                "answer": "• Agreed destination for transport: • Recommend a labour ward in preference to an emergency department if possible. • Precise destination should be agreed and clear to all. • Ambulance clinicians should be supported when bypassing a closer facility. • Mother and baby should be transported together whenever possible. • An early pre alert call should be made to the receiving location.",
+                "GPT-4-0_answer": "The care pathway includes: (1) identifying gestation and resuscitation needs; (2) maintaining thermal regulation; (3) initiating respiratory support; (4) preparing transport logistics (destination agreement, pre-alert calls); (5) ensuring joint maternal-baby transport; (6) ongoing monitoring during transit.",
+                "RATING": 80,
+                "NOTES": "Good logistical focus, but missed early clinical and preparation steps such as initial thermal/resuscitation actions and pre-birth considerations."
+            },
+            {
+                "question": "How are decisions for thermal care influenced by maternal conditions?",
+                "use_graph": true,
+                "answer": "• Thermal care for extremely preterm babies is influenced by maternal conditions due to the following factors: • Extremely preterm babies cannot generate heat and are at risk of hypothermia, which exacerbates heat loss from evaporation of amniotic fluid on their skin [9]. • Thermal insulation, such as blankets, can help maintain the baby\u0027s temperature but will not warm a cold baby [8]. • In situations where the mother is clinically unstable and limited personnel are available, acute care of the mother should take precedence over thermal care for the baby [8]. • Consistent, empathetic, and professional care is essential to help parents come to terms with extreme preterm birth and support them through difficult decisions [4]. • Keep baby swaddled and on a heated mattress.\n\n• Maximize ambient ambulance temperature and minimize draughts.\n\n• Continue mask ventilation and assess heart rate at 2-3 minute intervals to guide continuing intervention.\n\n• Use warmed blankets if possible.\n\n• In the absence of a radiant heat source, there is no published evidence of harm from using polythene bags [8].\n\n• Acute care of the mother should take precedence over acute care of an extremely preterm baby when she is clinically unstable and limited personnel are available.",
+                "GPT-4-0_answer": "Maternal instability can deprioritize neonatal thermal care due to limited personnel. Decisions include using warmed blankets, heated mattresses, and polythene bags. When maternal care is urgent, neonatal warming measures may be deferred, prioritizing maternal stabilization.",
+                "RATING": 97,
+                "NOTES": "Comprehensive and well-aligned with document content. Small reduction due to some redundancy; could be slightly more concise."
+            },
+            {
+                "question": "Demonstrate how checklist items correspond to stages of neonatal transport.",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to demonstrate how checklist items correspond to stages of neonatal transport verbatim or synthesize it strictly from the context.",
+                "GPT-4-0_answer": "Although the document lists steps such as ensuring correct destination, preparing resuscitation equipment, and ensuring communication, it does not explicitly map these to a checklist format. Stages (pre-delivery, delivery, post-delivery) can be inferred with matched tasks.",
+                "RATING": 85,
+                "NOTES": "Correctly noted absence of a direct checklist mapping. Could have inferred stage-wise alignment based on procedural flow."
+            },
+            {
+                "question": "Show the causal link between delayed cord clamping and hemodynamic stability.",
+                "use_graph": true,
+                "answer": "No relevant information found in the specified document context based on the query keywords.",
+                "GPT-4-0_answer": "The document does not reference delayed cord clamping or its effects, including hemodynamic stability.",
+                "RATING": 100,
+                "NOTES": "Correctly identified absence of relevant content."
+            },
+            {
+                "question": "What are the feedback loops involved in FiO2 adjustments based on oximetry data?",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to answer the question about feedback loops involved in FiO2 adjustments based on oximetry data.",
+                "GPT-4-0_answer": "The document refers to heart rate assessments and respiratory support monitoring but does not elaborate feedback loops between FiO2 delivery and oximetry readings.",
+                "RATING": 98,
+                "NOTES": "Accurate answer. Could briefly mention what monitoring is included even if loops aren’t detailed."
+            },
+            {
+                "question": "Connect resuscitation decision factors with long-term developmental outcomes.",
+                "use_graph": true,
+                "answer": "• If gestation is known to be less than 22 completed weeks , even if there are signs of life at birth – resuscitation should not be attempted. Focus on maternal care and comfort care for the baby.\n\n• From 22+0 weeks’ gestation, or if gestation is not known, simple interventions focused on maintaining body temperature and supporting respiration should be undertaken.\n\n• Survival-focused care aims for the baby to be born in the best possible condition with a plan for stabilisation at birth.\n\n• Simple interventions include thermal care, stabilisation and resuscitation applicable to extreme preterm birth out of hospital situation as per Newborn Life Support principles, and transit to definitive care.\n\n• Transit to definitive care involves moving the baby and mother to the ambulance for continued uninterrupted airway/breathing support, optimising thermal care, and assessing heart rate at 2-3 minute intervals.\n\n• Outcomes for extremely preterm babies born out of hospital will be poorer than for those babies of equivalent gestation born in the appropriate hospital setting. Only a minority of babies born out of hospital before 24 completed weeks’ gestation will survive.",
+                "GPT-4-0_answer": "Gestational age is the key factor: <22 weeks typically no resuscitation. From 22+0, basic support initiated. Decisions influence outcomes as out-of-hospital births before 24 weeks have poorer prognoses, linking early care decisions with long-term survival chances.",
+                "RATING": 95,
+                "NOTES": "Good comprehensive summary. Could clarify that these choices influence long-term neurodevelopmental outcomes, even if indirectly stated."
+            },
+            {
+                "question": "Visualize the process of team coordination before, during, and after delivery.",
+                "use_graph": true,
+                "answer": "• Correct destination – access the most appropriate neonatal and/or maternal expertise at the most appropriate location.\n\n• Good communication – extremely preterm birth will be a frightening time for both the mother and her partner as well as the attending professionals. Ensure clear and sensitive communication.\n\n• Summon further help if birth is imminent, this may include an additional double-crewed ambulance and/or an additionally skilled ambulance clinician. Consider if further assistance from a pre-hospital critical care team will support management and assist decision making without significantly delaying conveyance.\n\n• Prioritise the mother, ensuring she is stable; if the mother is stable, shift focus to the impending birth of the baby.\n\n• Be aware of and prepared for potential complications during labour and birth that might compromise outcome for either mother or baby.\n\n• If the baby is already born, simultaneous assessment of mother and baby should be undertaken.\n\n• Try to establish the gestation of the baby, this may be through discussion with the mother or family or by reference to any available maternity records.\n\n• Prepare an area for resuscitation, off the floor if possible, and open your maternity pack and newborn resuscitation equipment. For extreme preterm birth, a preterm mask, a food-grade plastic bag and a heated mattress should be available.\n\n• In cases where the gestation is unknown or unclear but may be 22 weeks or more, anticipate survival-focused care for the baby.\n\n• Correct management present at delivery. In determining signs of life, refer to MBRRACE-UK Signs of life guidance.\n\n• Staff support – clinicians attending emergency preterm births in the pre-hospital setting can be emotionally affected by the experience. Support and multidisciplinary debrief sessions following such incidents help to ensure learning and prevent emotional trauma. Hospital staff should be aware of, and sympathetic to, difficult decisions that may have been made before arrival and any disagreements discussed sensitively at a later debrief.\n\n• Communication – effective communication at this challenging time can help to reduce the impact of a traumatic experience upon parents, both in the short and longer term. Use simple language, be sensitive to parental terminology, avoid medical jargon, and offer opportunities for photographs and family involvement.\n\n• Birth and death certification",
+                "GPT-4-0_answer": "Team coordination includes (1) Pre-delivery: clarifying destination, preparing equipment, summoning help; (2) During delivery: communication, maternal prioritization, readiness for resuscitation; (3) Post-delivery: support for both mother and staff, documentation, ongoing neonatal stabilization.",
+                "RATING": 90,
+                "NOTES": "Very thorough. Could be improved by explicitly distinguishing actions across the three timeline stages."
+            },
+            {
+                "question": "Map Apgar scores to specific intervention decisions and escalation steps.",
+                "use_graph": true,
+                "answer": "No relevant information found in the specified document context based on the query keywords.",
+                "GPT-4-0_answer": "The document does not explicitly mention Apgar scores. Therefore, it does not directly map Apgar scores to intervention or escalation steps. Instead, decisions are guided by observable clinical signs such as respiratory effort, heart rate, and gestational age.",
+                "rating": 98,
+                "notes": "Correct identification that Apgar scores are not mentioned in the source. You could have added the explanation about how decisions are made in their absence."
+            },
+            {
+                "question": "How are environmental and clinical factors integrated in thermal care planning?",
+                "use_graph": true,
+                "answer": "No relevant information found in the specified document context based on the query keywords.",
+                "GPT-4-0_answer": "Environmental and clinical factors such as room temperature, heat sources (heated mattresses), polythene bags, swaddling, and immediate wrapping after birth are integrated into thermal care planning to prevent hypothermia. These are detailed under 'Thermal Care' in the survival-focused care section.",
+                "rating": 70,
+                "notes": "Thermal care is well documented in the report. This was a missed opportunity to extract specifics about heated mattresses, plastic bags, and environmental prep."
+            },
+            {
+                "question": "Link pre-delivery briefings with post-delivery intervention efficiency.",
+                "use_graph": true,
+                "answer": "• Correct assessment principles for paramedics and ambulance clinicians attending an out-of-hospital birth: • Be aware of and prepared for potential complications during labour and birth that might compromise outcome for either mother or baby. • Determine the gestation of the baby, specifically if greater or less than 22 completed weeks. • Access to maternity records if available may be helpful.\n\n• Correct management principles: • Provide effective and timely delivery of appropriate interventions in the mother and baby\u0027s best interests. • For the majority, this will include attempted stabilisation of the baby. • For some babies, comfort-focused care will be appropriate.\n\n• Correct destination: • Access the most appropriate neonatal and/or maternal expertise at the most appropriate location. • Guidance is included for situations where initial attempts to resuscitate the baby are either not appropriate or unsuccessful. The context does not contain sufficient information to link pre-delivery briefings with post-delivery intervention efficiency verbatim. However, it can be inferred that effective communication and coordination between healthcare professionals during both pre-delivery briefings and post-delivery interventions are essential for efficient care and a smooth transition to hospital care for both baby and mother.",
+                "GPT-4-0_answer": "Although the document doesn't mention 'pre-delivery briefings' explicitly, it stresses that preparation (e.g., summoning skilled help, equipment readiness, and assessing gestation) leads to better post-delivery care. This can be interpreted as a link between preparation and care efficiency.",
+                "rating": 90,
+                "notes": "Your response did a good job capturing implied relationships even though the term 'briefings' isn't used. More explicit mapping of preparation to outcome could boost clarity."
+            },
+            {
+                "question": "Connect respiratory support choices to gestational age and birth context.",
+                "use_graph": true,
+                "answer": "• Poor or absent respiratory effort during birth – provide respiratory support using the smallest mask available and two-person support if possible. Provide 5 gentle inflation breaths, sustained over 2-3 seconds, followed by gentle ventilation breaths at approximately 30 breaths per minute in room air. Maintain baby\u0027s head in neutral position.\n\n• No heart rate and no respiratory effort – provide respiratory support as the baby may still be alive. The context does not contain sufficient information to connect specific types of respiratory support to different gestational ages or birth contexts beyond the general instructions provided above.",
+                "GPT-4-0_answer": "The document distinguishes that babies under 22 weeks should not receive resuscitation. From 22+0 weeks, if respiratory effort is poor, ventilation support (5 inflation breaths, 30 bpm ventilations) should be provided. Above 24 weeks, full NLS protocols including chest compressions are applicable.",
+                "rating": 88,
+                "notes": "You conveyed the clinical steps well but didn't explicitly link them to gestational thresholds (22 vs. 24 weeks). Adding that would improve completeness."
+            },
+            {
+                "question": "How does maternal medical history influence neonatal transport planning?",
+                "use_graph": true,
+                "answer": "• Maternal medical history influences neonatal transport planning through the following ways, as outlined in the document \"Pre-hospital Management of Babies Born Extremely Preterm\": • Correct destination: The document emphasizes the importance of ensuring the baby is taken to a hospital with appropriate facilities for their care. This may depend on the maternal medical history and gestational age of the neonate. • Stabilization and resuscitation applicable to extreme preterm birth out of hospital situation: Maternal medical history can impact the need for and effectiveness of stabilization and resuscitation efforts during transport. The Newborn Life Support principles should be followed as applicable. • Comfort-focused neonatal care: In some cases, a joint decision may be made with parents that survival-focused management is not appropriate due to maternal medical history or gestational age less than 22 completed weeks or an advance care directive being in place. In such situations, comfort-focused care should be instigated if the baby survives labour and birth. • Thermal care: Maternal medical conditions can impact the baby\u0027s temperature during transport, making thermal care essential. The document provides guidelines for maintaining an appropriate temperature for the neonate.",
+                "GPT-4-0_answer": "Correct. Maternal medical history affects destination planning, urgency of transport, and whether survival- or comfort-focused care is appropriate. It influences resource needs (thermal care, stabilization) and ethical decisions.",
+                "rating": 95,
+                "notes": "Comprehensive and accurate. Good use of direct examples. Slight improvement possible by emphasizing how maternal stability can dictate transport sequencing."
+            },
+            {
+                "question": "Show the dynamic relationships between stabilization timing, interventions, and outcomes.",
+                "use_graph": true,
+                "answer": "• Correct assessment: be aware of and prepared for potential complications during labour and birth that might compromise outcome for either mother or baby. Determine the gestation of the baby, specifically if greater or less than 22 completed weeks. If the mother is unclear, access to maternity records if available may be helpful.\n\n• Correct management: provide effective and timely delivery of appropriate interventions in the mother and baby’s best interests. For the majority, this will include attempted stabilisation of the baby, but for some babies, comfort-focused care will be appropriate.\n\n• Correct destination: access the most appropriate neonatal and/or maternal expertise at the most appropriate location. The context does not contain sufficient information to show the dynamic relationships between stabilization timing, interventions, and outcomes.",
+                "GPT-4-0_answer": "While not explicitly graphed, the document indicates that earlier stabilization (thermal care, respiratory support) improves chances of survival. Delay or failure to deliver care promptly leads to higher mortality and poorer outcomes.",
+                "rating": 85,
+                "notes": "Your answer includes relevant steps but doesn't articulate the dynamic relationship (i.e., time-dependent effects). A cause-effect framing would make it clearer."
+            },
+            {
+                "question": "Illustrate how pre-hospital protocols align with hospital-based neonatal practices.",
+                "use_graph": true,
+                "answer": "• Initial management of an extremely preterm baby born out of hospital should follow one of two pathways; “survival-focused” or “comfort-focused” care.\n\n• When comfort-focused care is agreed, parents should be made aware that their baby may show signs of life after birth, including visible heartbeat, gasping and/or movement of limbs.\n\n• Parents should be given time together with their baby, facilitated to be actively involved in their baby’s care, and offered opportunities for memory making such as holding the baby, taking photographs, and using a family blanket or “cuddle pocket”.\n\n• Effective communication at this challenging time can help reduce the impact on parents. Use simple language, avoid medical jargon, and be sensitive to the language parents use.\n\n• In the absence of fully informed decision making in an out of hospital setting, initial care must follow pragmatic, consensus-based advice.\n\n• Outcomes for extremely preterm babies born out of hospital will be poorer than those born in a hospital setting. Only a minority of babies born before 24 completed weeks’ gestation will survive.\n\n• Attempted resuscitation of the baby before 22 completed weeks’ gestation is not appropriate and should not be undertaken.\n\n• When the mother is clinically unstable, acute care of the mother should take precedence over acute care of an extremely preterm baby.",
+                "GPT-4-0_answer": "Correct. The survival- vs. comfort-focused pathways align with hospital-based protocols. Delayed cord clamping, thermal management, and the use of family involvement/memory-making mirror in-hospital palliative care models.",
+                "rating": 96,
+                "notes": "Well explained. You clearly captured the parallel practices. Could further highlight how this supports continuity of care across settings."
+            },
+            {
+                "question": "How do checklists integrate with role assignments in neonatal teams?",
+                "use_graph": true,
+                "answer": "No relevant information found in the specified document context based on the query keywords.",
+                "GPT-4-0_answer": "The document does not provide formal checklists or role delineations. It assumes that responders follow general NLS principles and prepare with available equipment and personnel. Role assignment is implied but not formally structured.",
+                "rating": 95,
+                "notes": "Accurate conclusion. Consider adding a line that no structured checklist is presented in the document."
+            },
+            {
+                "question": "What is the graph of clinical signs triggering escalation protocols?",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to answer the question about the graph of clinical signs triggering escalation protocols.",
+                "GPT-4-0_answer": "There is no visual graph, but textual criteria include: no heart rate, no respiratory effort (support may still be attempted); under 22 weeks (no resuscitation); 22+ weeks (thermal and respiratory care); <60 bpm after ventilation (limited escalation for <24 weeks).",
+                "rating": 92,
+                "notes": "Good call on absence of graph. You could have added that escalation is based on heart rate, gestational age, and response to interventions as per text."
+            },
+            {
+                "question": "How do early decisions affect downstream transport readiness?",
+                "use_graph": true,
+                "answer": "• An early pre alert call should be made to the receiving location to enable a team to be ready for the baby and the parents.",
+                "GPT-4-0_answer": "Early decisions, such as performing an early pre-alert call to the receiving hospital, directly enhance transport readiness by ensuring that appropriate neonatal and maternal teams are prepared on arrival. Decisions on whether to initiate survival-focused or comfort-focused care also influence the urgency and configuration of transport resources, including whether to send a second crew or prioritize facilities with neonatal and maternal co-location.",
+                "rating": 75,
+                "notes": "You correctly identified a key element—early pre-alerts—but the answer is limited in scope. It doesn't fully cover other downstream impacts like appropriate destination selection, preparing neonatal expertise, or deciding on the transport crew configuration based on maternal and infant stability. A broader view would have increased the score."
+            }
+        ]
+    ],
+    "average_ratings": {
+        "non_graph_questions": 85.63,
+        "graph_questions": 85.58,
+        "combined": 85.60
+    },
+    "PDF": {
+        "total nodes": 829,
+        "total Relationships": 1646
+    }
+}

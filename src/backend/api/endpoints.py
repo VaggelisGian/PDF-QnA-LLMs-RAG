@@ -13,7 +13,7 @@ import traceback
 import requests
 import datetime
 from dotenv import load_dotenv
-from src.backend.api.models import ChatRequest ,ChatResponse
+from src.backend.api.models import ChatRequest ,ChatResponse,SourceDocument,BatchChatResponse,BatchChatRequest,BatchChatRequestItem,BatchChatResponseItem
 from src.backend.api.progress import redis_client as shared_redis_client
 from src.backend.api.progress import router as progress_router
 from langchain_core.prompts import ChatPromptTemplate
@@ -130,6 +130,87 @@ async def extract_topics_with_llm(text: str, llm: ChatOpenAI, max_topics: int = 
     final_topics_title_case = [topic.title() for topic in final_topics]
     print(f"Aggregated and deduplicated topics (Top {len(final_topics_title_case)} requested): {final_topics_title_case}")
     return final_topics_title_case
+
+@router.post("/batch_chat", response_model=BatchChatResponse)
+async def batch_chat_with_assistant(request: Request, batch_request: BatchChatRequest):
+    """
+    Processes a batch of questions using either RAG or GraphRAG concurrently,
+    optionally scoped to a document_title.
+    """
+    rag_assistant_instance = request.app.state.rag_assistant_instance
+    graph_rag_assistant_instance = request.app.state.graph_rag_assistant_instance
+    doc_title_for_query = batch_request.document_title
+
+    if rag_assistant_instance is None or graph_rag_assistant_instance is None:
+        raise HTTPException(status_code=503, detail="Assistants not initialized")
+
+    if not batch_request.questions:
+        return BatchChatResponse(results=[])
+
+    print(f"Received batch chat request with {len(batch_request.questions)} questions. Document context: '{doc_title_for_query if doc_title_for_query else 'All Documents'}'")
+
+    try:
+        llm_instance = ChatOpenAI(
+            openai_api_key=LM_STUDIO_API_KEY,
+            openai_api_base=LM_STUDIO_API_BASE,
+            temperature=DEFAULT_LLM_TEMP,
+            max_tokens=DEFAULT_LLM_MAX_TOKENS
+        )
+        print(f"Instantiated single LLM for batch chat with default params.")
+        rag_assistant_instance.update_llm(llm_instance)
+        graph_rag_assistant_instance.update_llm(llm_instance)
+        print("Updated RAG and GraphRAG assistants with the batch LLM instance.")
+    except Exception as e:
+        print(f"ERROR: Failed to initialize or update LLM for batch chat: {e}")
+        traceback.print_exc()
+        error_results = [
+            BatchChatResponseItem(
+                question=item.question,
+                use_graph=item.use_graph,
+                error=f"Failed to initialize LLM for batch processing: {type(e).__name__}"
+            ) for item in batch_request.questions
+        ]
+        return BatchChatResponse(results=error_results)
+
+    async def process_single_question(item: BatchChatRequestItem) -> BatchChatResponseItem:
+        question = item.question
+        use_graph = item.use_graph
+        response_item = BatchChatResponseItem(question=question, use_graph=use_graph)
+
+        try:
+            if use_graph:
+                print(f"  Processing (GraphRAG for '{doc_title_for_query}'): {question[:50]}...")
+                result = graph_rag_assistant_instance.query(
+                    question,
+                    current_doc_title=doc_title_for_query
+                )
+                if "error" in result:
+                     response_item.error = result.get("error", "GraphRAG query failed.")
+                     print(f"  > Error (GraphRAG): {response_item.error} - Details: {result.get('details')}")
+                else:
+                     response_item.answer = result.get("result", "Graph RAG failed to find an answer.")
+                     response_item.sources = []
+                     print(f"  > Answer (GraphRAG): {response_item.answer[:50]}...")
+            else:
+                print(f"  Processing (RAG): {question[:50]}...")
+                result = rag_assistant_instance.query(question)
+                response_item.answer = result.get("answer", "RAG failed to find an answer.")
+                raw_sources = result.get("sources", [])
+                response_item.sources = [SourceDocument(**src) for src in raw_sources if isinstance(src, dict)]
+                print(f"  > Answer (RAG): {response_item.answer[:50]}... ({len(response_item.sources)} sources)")
+
+        except Exception as e:
+            error_msg = f"Failed processing question '{question[:50]}...': {type(e).__name__}"
+            print(f"  > ERROR: {error_msg} - {e}")
+            traceback.print_exc()
+            response_item.error = error_msg
+        return response_item
+
+    tasks = [process_single_question(item) for item in batch_request.questions]
+    results = await asyncio.gather(*tasks)
+
+    print(f"Finished processing batch of {len(batch_request.questions)} questions for document '{doc_title_for_query}'.")
+    return BatchChatResponse(results=results)
 
 @router.get("/health")
 async def health_check():

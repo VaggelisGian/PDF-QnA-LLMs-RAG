@@ -1,0 +1,415 @@
+﻿{
+    "questions": [
+        [
+            {
+                "question": "What are the essential components of the initial pre-hospital assessment in trauma care?",
+                "use_graph": false,
+                "answer": "The context does not provide a specific list of actions or steps for the initial pre-hospital assessment in trauma care. However, it mentions that the Trauma Care pre-hospital Manual offers evidence-based guidelines for managing major trauma before arrival at the hospital and emphasizes the importance of swift pre-hospital assessment of seriously injured patients and immediate life-saving measures when needed.",
+                "GPT-4-0_answer": "The essential components of the initial pre-hospital assessment include: ensuring scene safety, assessing the mechanism of injury, performing a structured primary survey following the <C>ABCDE approach (Catastrophic hemorrhage, Airway, Breathing, Circulation, Disability, Exposure), rapid identification of life-threatening conditions, and initiating life-saving interventions including airway management, hemorrhage control, and oxygen delivery.",
+                "RATING": 55,
+                "NOTES": "You recognized the importance of pre-hospital assessment and cited general principles, but missed the structured components like <C>ABCDE, which are explicitly emphasized in the manual."
+            },
+            {
+                "question": "What steps are outlined for airway management while maintaining cervical spine protection in trauma care?",
+                "use_graph": false,
+                "answer": "1. Recognize signs of airway injury or obstruction (Box 16.2).\n2. Provide a patent airway using appropriate methods, prioritizing good airway management over cervical spine immobilization.\n3. Maintain an airway for bag-valve-mask ventilation with the two-person technique in children.\n4. Use appropriately sized airway adjuncts to assist in basic airway management.\n5. Assess the likelihood of cervical spine injury through a detailed understanding of the mechanism of injury, but do not compromise airway management for it.\n6. Administer high-flow oxygen at 15 L/min by facemask with reservoir once the airway is patent.\n7. Be cautious when using oxygen in confined spaces to prevent fire hazards.\n8. Perform a brief but careful examination of the neck for pain, tenderness, and restricted movement if a collar and immobilization are applied. Otherwise, this assessment will wait until later (B).",
+                "GPT-4-0_answer": "Steps include: ensure airway patency while protecting the cervical spine using jaw thrust (not head tilt–chin lift); apply manual in-line stabilization; use airway adjuncts (oropharyngeal or nasopharyngeal) as needed; use bag-valve-mask with two-person technique; assess for and treat obstructions; apply high-flow oxygen; avoid compromising airway management due to spinal precautions.",
+                "RATING": 92,
+                "NOTES": "Excellent detail and accurate reproduction of manual content. Some minor improvements in wording for clarity and grouping similar actions could bring it to perfection."
+            },
+            {
+                "question": "What is the protocol for controlling external hemorrhage at a trauma scene?",
+                "use_graph": false,
+                "answer": "1. Identify and control life-threatening external bleeding by applying direct pressure and elevation, or using a tourniquet.\n2. Gain intravenous access and administer fluids, ideally blood products.\n3. In high-threat environments, consider rapid haemorrhage control with a tourniquet and extraction to a safer environment.\n4. Control critical extremity and junctional external bleeding in the <C> component of the primary survey.\n5. Use direct pressure through a dressing in combination with limb elevation for most cases.\n6. Consider early application of a tourniquet, haemostatic dressing, or indirect pressure device if bleeding cannot be controlled by basic measures.",
+                "GPT-4-0_answer": "Control of external hemorrhage includes: apply direct pressure to bleeding site; elevate the limb if applicable; use haemostatic dressings or tourniquets when direct pressure fails; apply pressure proximal to bleeding if required; identify and manage hemorrhage in the <C> of the <C>ABCDE sequence; secure IV access for fluid resuscitation; consider rapid extraction in high-threat environments.",
+                "RATING": 95,
+                "NOTES": "Comprehensive and precise. Covers all essential techniques and situational adaptations. Very slight rewording could align even better with the source tone."
+            },
+            {
+                "question": "Under what clinical conditions should spinal immobilization be applied during pre-hospital trauma care?",
+                "use_graph": false,
+                "answer": "The context suggests that spinal immobilization should be considered and applied when warranted by the pre-hospital clinician. However, it does not provide a definitive list of clinical conditions or indications for spinal immobilization during pre-hospital trauma care. Therefore, the context does not directly answer the question.",
+                "GPT-4-0_answer": "Spinal immobilization should be applied when there is suspicion of cervical spine injury based on mechanism of injury (e.g., falls, RTCs, high-energy trauma), presence of neck pain or tenderness, neurological symptoms, altered consciousness, or intoxication. It should not delay essential interventions like airway management.",
+                "RATING": 60,
+                "NOTES": "You correctly note the absence of an explicit list in your answer, but a deeper synthesis using the provided mechanism-based criteria from the manual would improve completeness."
+            },
+            {
+                "question": "What are the signs of a tension pneumothorax that a pre-hospital provider should look for?",
+                "use_graph": false,
+                "answer": "1. Respiratory distress\n2. Low oxygen saturation on air\n3. Ipsilateral hyperexpansion and reduced movement\n4. Absent breath sounds\n5. Tachycardia\n6. Hyporesonance\n7. Tracheal deviation (late)\n8. High inflation pressures\n9. Distended neck veins if the patient is not hypovolaemic\n10. Late signs: worsening respiratory status, respiratory arrest preceding cardiac arrest, and hypotension.",
+                "GPT-4-0_answer": "Signs include: respiratory distress; decreased breath sounds on one side; hyperresonance or hyporesonance on percussion; tracheal deviation (late sign); tachycardia; distended neck veins (if not hypovolemic); low oxygen saturation; high airway pressures during ventilation; hypotension or cardiac arrest as late signs.",
+                "RATING": 98,
+                "NOTES": "Excellent and thorough. You matched the manual almost exactly. Just a small inconsistency in term use (hyporesonance vs. hyperresonance mentioned in sources)."
+            },
+            {
+                "question": "What is the sequence and rationale behind the 'CABCDE' trauma management framework in the manual?",
+                "use_graph": false,
+                "answer": "The context does not provide information on the specific sequence and rationale behind the 'CABCDE' trauma management framework in the manual.",
+                "GPT-4-0_answer": "The 'CABCDE' framework stands for: Catastrophic hemorrhage (C) control first, followed by Airway (A) management with cervical spine protection, Breathing (B), Circulation (C), Disability (neurological status, D), and Exposure (E) to identify all injuries. The rationale is to address the most immediate threats to life in order of urgency, particularly massive bleeding which must be controlled before airway and breathing.",
+                "RATING": 35,
+                "NOTES": "The manual clearly explains the CABCDE sequence and its life-saving prioritization rationale. You missed a key opportunity to draw directly from that explanation."
+            },
+            {
+                "question": "When should a rapid extrication be performed on a trauma patient?",
+                "use_graph": false,
+                "answer": "The context does not provide specific indications for when a rapid extrication should be performed on a trauma patient. It mentions that the clinician must determine the urgency with which the patient is extracted, balancing risks and communicating effectively with emergency services personnel. However, no explicit criteria or timeframes are given for when a rapid extraction is necessary.",
+                "GPT-4-0_answer": "Rapid extrication should be performed when there is an immediate threat to life such as fire, explosion risk, structural collapse, or inaccessible airway. It's also indicated if the patient's clinical condition demands urgent intervention not possible at the scene.",
+                "RATING": 50,
+                "NOTES": "You correctly acknowledged the absence of a rigid list, but omitted to synthesize the context-specific indicators for urgency that are mentioned indirectly in the manual."
+            },
+            {
+                "question": "What equipment is recommended for pre-hospital airway management?",
+                "use_graph": false,
+                "answer": "The context recommends having airway equipment as listed in standard operating procedure, monitoring equipment including ECG, oximetry, blood pressure, and capnography, and powered suction.",
+                "GPT-4-0_answer": "Recommended equipment includes: bag-valve-mask (BVM), oropharyngeal and nasopharyngeal airways, supraglottic airway devices, endotracheal tubes (if within scope), suction devices, oxygen delivery systems (non-rebreather masks, nasal cannulae), and monitoring tools like ECG, pulse oximetry, capnography, and BP monitors.",
+                "RATING": 65,
+                "NOTES": "You included some monitoring tools, but missed listing key airway adjuncts and devices central to airway management. Being more specific would increase clarity."
+            },
+            {
+                "question": "Explain the decision-making process for transporting a patient with suspected internal bleeding.",
+                "use_graph": false,
+                "answer": "1. Assess the adequacy of the patient's circulatory system and determine if end organs are being adequately perfused.\n2. Suspect occult internal bleeding and identify its site, applying splints to reduce bleeding from pelvis or long bones as necessary.\n3. Carefully prepare intravenous or intraosseous access before transfer.\n4. Consider the risks associated with air transport versus road transfer based on patient retrieval hazards and organizational systems.\n5. Pre-alert receiving hospital for immediate availability of blood and blood products, trauma team response, and radiological imaging if necessary.\n6. Determine the most appropriate destination for retrieval based on evacuation times, geographical location, clinical capability of crew, anatomical site of bleeding, and environment in which care is to be delivered.\n7. In high-threat environments, employ rapid haemorrhage control with a tourniquet and extraction to a safer environment as an immediate action if necessary.",
+                "GPT-4-0_answer": "Key factors include: assessing circulatory compromise and perfusion; identifying suspected internal bleeding; stabilizing fractures or applying splints; securing IV/IO access; choosing between air or road transfer depending on geography and stability; pre-alerting the receiving hospital; and selecting the most appropriate trauma center considering distance, capability, and environment.",
+                "RATING": 90,
+                "NOTES": "Comprehensive, clear, and largely aligned with the source. A couple of steps could be better grouped logically to enhance flow."
+            },
+            {
+                "question": "What steps should be taken when dealing with a patient suffering from major burns?",
+                "use_graph": false,
+                "answer": "1. Remove the patient from the burning source and remove burnt clothing as quickly and safely as possible.\n2. Cool the burned skin under a running cold-water tap to reduce ongoing burning, provide analgesia, and promote healing.\n3. Assess both the scene and the patient for other injuries that could pose a greater or more immediate threat to life.\n4. Take an initial AMPLE (Allergies, Medication, Past medical history, Last ate or drank, Events) and tetanus immunisation history if possible.\n5. Manage the patient following current trauma protocols.",
+                "GPT-4-0 answer": "1. Remove from the source of burn.\n2. Cool with water ideally within 3 hours—use running cold water, not ice or hydrogel dressings.\n3. Assess for airway compromise and inhalation injury.\n4. Assess TBSA burned.\n5. Cover burns with cellophane or non-adherent dressing.\n6. Give analgesia and begin warmed fluid resuscitation if >20% TBSA (or >10% in children), per Parkland or weight-based formula.\n7. Monitor for hypothermia.\n8. Rapid transport; escharotomy only in prolonged field care settings.",
+                "RATING": 80,
+                "NOTES": "You included many core ideas but missed fluid resuscitation criteria, hypothermia prevention, and the appropriate use of dressings (e.g., cellophane rather than cooling with tap water long-term)."
+            },
+            {
+                "question": "Describe the Glasgow Coma Scale and its use in the pre-hospital setting.",
+                "use_graph": false,
+                "answer": "The Glasgow Coma Scale (GCS) is a tool used to assess conscious level in patients with traumatic brain injuries (TBI). It comprises three component tests (eye, motor, and verbal scales), each with specific scores ranging from 1 to 6. The best score in each category is used to calculate the overall GCS score out of 15. In the pre-hospital setting, the GCS score is used to classify TBI as severe (GCS 3–8), moderate (GCS 9–13), or mild (GCS 14–15). The seriousness of the brain injury based on the GCS score influences pre-hospital handover and transfer destination. Other factors, such as mechanism, distinction between isolated head injury and head injury as part of multi-trauma, length of loss of consciousness or amnesia, and presence of neurological deficit, are also considered in determining the magnitude of a traumatic brain injury. Capnography, ECG, NIBP, pulse oximetry, and ongoing multimodality monitoring are essential during pre-hospital sedation to ensure adequate oxygenation and maintenance of cerebral perfusion. Advanced airway equipment, suction, and emergency drugs are necessary for reversing sedation or converting to general anesthesia in case of problems arising. Pre-hospital sedation should only be undertaken by those with the necessary skills to proceed to induction of anesthesia, including a full range of airway techniques up to and including surgical airway.",
+                "GPT-4-0 answer": "The GCS assesses eye (E), verbal (V), and motor (M) responses with scores E(1–4), V(1–5), M(1–6). Total score: 3–15. Used to classify TBI as mild (14–15), moderate (9–13), or severe (3–8). In pre-hospital care, it guides triage, airway decisions, and destination (e.g., major trauma center). Must consider intoxication, sedation, and associated extracranial injury. AVPU is a quicker alternative.",
+                "RATING": 90,
+                "NOTES": "Your answer is rich in context, covering scoring and use cases well. Minor improvements could be made by trimming excessive detail on sedation logistics and including AVPU as a contrast."
+            },
+            {
+                "question": "What are the indications for tourniquet application in the field?",
+                "use_graph": false,
+                "answer": "1. Catastrophic extremity haemorrhage that cannot be controlled by direct pressure and elevation.\n2. Partial or complete amputation of limbs.\n3. Penetrating vascular injury.\n4. In lower limbs, a second proximal tourniquet may be required if the first one fails to arrest haemorrhage.\n5. Failure to tighten the tourniquet enough can result in distal venous engorgement and worsening haemorrhage.",
+                "GPT-4-0 answer": "Indications include:\n1. Catastrophic limb haemorrhage unresponsive to direct pressure.\n2. Amputation due to blast or trauma.\n3. Penetrating extremity vascular injury.\n4. Junctional bleeding when direct pressure fails (junctional tourniquets).\nNote: Avoid joint placement. Apply as distally as possible. Multiple tourniquets may be needed. Time of application must be noted.",
+                "RATING": 95,
+                "NOTES": "Excellent coverage of indications, including escalation. You could improve by referencing reassessment and noting application time explicitly."
+            },
+            {
+                "question": "How is hypovolemic shock recognized and managed pre-hospital?",
+                "use_graph": false,
+                "answer": "1. Signs of shock (pallor, poor capillary refill, sweating, cool extremities or clamminess, weak peripheral pulses, reduction in pulse pressure, agitation, confusion or irritability, tachypnoea).\n2. Immediate access to circulation with peripheral intravenous access or intraosseous access if necessary.\n3. Identify and control sources of bleeding with minimal further tissue damage.\n4. Preservation of blood and optimization of coagulation.\n5. Control of haemorrhage, preservation of intravascular volume, and management of physiological consequences of relative and absolute hypovolaemia are the cornerstones of shock management.",
+                "GPT-4-0 answer": "Recognition: pallor, delayed capillary refill, weak pulses, low pulse pressure, confusion, tachypnea. Management: control bleeding, preserve intravascular volume, early IV/IO access, warmed crystalloid only if no blood products are available. Use a haemostatic resuscitation strategy: reduce bleeding, optimise coagulation, minimise harm, improve physiology. Prioritise blood products if available.",
+                "RATING": 93,
+                "NOTES": "You accurately outlined signs and steps. Great job. Slight improvements possible by clarifying ‘preservation of blood’ as use of blood products or restrictive fluid resuscitation."
+            },
+            {
+                "question": "What are the precautions for moving a patient with suspected pelvic fractures?",
+                "use_graph": false,
+                "answer": "1. Do not apply pressure to the pelvis when using a traction splint for suspected pelvic fractures.\n2. Identify and manage any significant but non-life-threatening external bleeding by covering with dressings.\n3. Splint other fractures, if open, dress them.\n4. Examine distal circulation before and after manipulation for application of splintage or where limb circulation is threatened and evacuation may be delayed.\n5. Do not delay evacuation for unnecessary practical procedures.\n6. Gain venous access with a large bore cannula if possible.\n7. Suspect pelvic fractures during high-mechanism injuries and systematically search for associated injuries.\n8. Apply pelvic stabilizing devices in the pre-hospital setting and maintain until imaging is obtained, if mechanism and clinical findings suggest pelvic fracture. Ensure they are appropriately sized and applied.",
+                "GPT-4-0 answer": "1. Suspect fractures in high-mechanism injuries.\n2. Apply pelvic binders (TPOD®, SAM®) during primary survey.\n3. Avoid unnecessary movement.\n4. Do not apply traction splints directly to pelvis.\n5. Control external bleeding and monitor distal perfusion.\n6. Remove tight clothing; apply binders directly to skin.",
+                "RATING": 92,
+                "NOTES": "Very thorough and well-structured. Could have emphasized binder application during primary survey and skin contact."
+            },
+            {
+                "question": "What is the protocol for communicating with receiving trauma centers?",
+                "use_graph": false,
+                "answer": "The context suggests that communication between pre-hospital staff, ambulance control, and receiving hospitals should ideally be made via a conference call to ensure direct transmission of information and accurate documentation. Pre-alert messages may also be necessary for patients who will benefit most from direct transfer to a major trauma center. Ambulance control rooms transmit most pre-hospital care information to the hospital, but it is essential to be familiar with local processes and have the correct numbers stored in phones for easy access. On arrival at the receiving hospital, the handover should be listened to by the trauma team without distraction, and important information such as age, time of injury, mechanism of injury, injuries suspected or known, signs recorded, and treatment provided should be passed effectively. Mobile data systems can also update vehicle mapping systems for quicker response times. Effective communication should be intelligible, accurate, timely, and clear.",
+                "GPT-4-0 answer": "1. Use conference call with pre-hospital, ambulance control, and hospital team.\n2. Pre-alert should include patient age, mechanism of injury, injuries, vitals, and treatment.\n3. Handover must be uninterrupted.\n4. Store key numbers and understand local procedures.\n5. Use mobile data for routing and updates.\n6. Communication must be clear, timely, and accurate.",
+                "RATING": 90,
+                "NOTES": "Good summary, though you could be slightly more concise. Including the 'clear, timely, accurate' communication mantra would elevate it further."
+            },
+            {
+                "question": "How should penetrating chest injuries be handled by EMS personnel?",
+                "use_graph": false,
+                "answer": "1. Follow a standard ABCDE approach.\n2. Consider spinal immobilization if the victim may have fallen as a result of being shot.\n3. Provide positive pressure ventilation for a casualty with a penetrating chest injury from a GSW as a relative indication for thoracostomy.",
+                "GPT-4-0 answer": "1. Follow ABCDE approach.\n2. Consider spinal immobilisation if fall or blast suspected.\n3. Manage airway and breathing.\n4. Give oxygen, monitor vitals.\n5. Provide positive pressure ventilation for GSW (may indicate thoracostomy if trained).\n6. Rapid transport to trauma center.",
+                "RATING": 80,
+                "NOTES": "Core steps are there but needed more about signs of tension pneumothorax, the rationale for positive pressure, and the importance of rapid surgical intervention."
+            },
+            {
+                "question": "What are the key differences in treating blunt vs. penetrating trauma in the field?",
+                "use_graph": false,
+                "answer": "The context does not provide specific information on the steps, actions, or indications for treating blunt versus penetrating trauma in the field. However, it mentions some general principles and differences between the two types of injuries:\n\n1. Blunt trauma: The elastic content of arteries makes them highly resistant to blunt injury but susceptible to incision or ballistic fragment penetration. Early deaths from blunt trauma usually result from central vascular deceleration injuries or traumatic brain injury. Catastrophic haemorrhage following blunt trauma is relatively rare.\n2. Penetrating trauma: The kinetic energy of the projectile as it reaches the tissue is partly determined by the energy imparted to it by the firearm, and characteristics such as yaw, tumble, deformation, and fragmentation increase the energy transfer. Traumatic amputation is a common cause of catastrophic haemorrhage following penetrating injury but uncommon in civilian practice. The rise in terrorist activity over the last decade means such injuries are likely to become increasingly common.\n3. Mechanism of injury: Mechanism of injury information can help draw the attention of clinicians to critical injury patterns associated with a particular mechanism and inform triage decisions. However, caution must be taken not to miss injuries that are not predicted by the mechanism but are present or cause clinicians to assess patients only based on their potentially incorrect assumptions.\n\nTherefore, the context does not directly answer the question about the key differences in treating blunt versus penetrating trauma in the field regarding specific steps, actions, or indications.",
+                "GPT-4-0 answer": "Penetrating trauma often leads to localized catastrophic bleeding (e.g., limb amputation, arterial injury), treat with tourniquets and haemostatic agents. Blunt trauma usually results in internal injuries (e.g., deceleration injuries to central vessels or TBI). Rapid recognition is critical. Mechanism of injury helps prioritize search for hidden damage but must not bias assessment. Penetrating needs haemorrhage control; blunt needs more emphasis on internal assessment and monitoring.",
+                "RATING": 78,
+                "NOTES": "You explained context and mechanisms well, but more concrete differences in treatment would help—e.g., bleeding control vs. monitoring/internal diagnostics."
+            },
+            {
+                "question": "Describe the triage process during a mass casualty incident according to the manual.",
+                "use_graph": false,
+                "answer": "The triage process during a mass casualty incident involves each patient being reviewed in under 3 seconds for number and severity of injuries. The START approach is used, prioritizing treatment based on evidence and providing information to the incident command team for resource allocation and evacuation planning. The system must be objective, reproducible, dynamic, flexible, and serial. Inaccurate triage can lead to suboptimal distribution of resources and potential issues down the evacuation chain. Emergency responders should rigorously apply triage decisions but allow some flexibility in terms of evacuation timing for certain patients. The capacity to provide care at the scene is limited, with various tiers of potential care including bystander first aid, treatment at the scene, casualty clearing station interventions, discharge from the scene, and diagnosis of death. The Triage Revised Trauma Score (TRTS) system is used to assign a more refined triage category to each casualty. The sort is a more detailed and clinically informed process but requires a higher level of clinical skill and may not be appropriate in the early stages of the response to an incident.",
+                "GPT-4-0 answer": "1. Use START system: assess each casualty in under 3 seconds.\n2. Classify and prioritize for care and evacuation.\n3. Triage must be objective, reproducible, dynamic, and flexible.\n4. TRTS (Triage Revised Trauma Score) used for refinement.\n5. Provide structured information to incident command.\n6. Scene care is tiered: from bystander to advanced teams.\n7. Triage must be applied rigorously but flexibly.",
+                "RATING": 88,
+                "NOTES": "Well-structured, complete response. A slight improvement would be explicitly naming the dynamic update principle and explaining TRTS more."
+            },
+            {
+                "question": "How should amputations be managed at the trauma scene?",
+                "use_graph": false,
+                "answer": "1. Apply a proximal tourniquet.\n2. Control haemorrhage from the proximal stump using pressure, haemostatic dressings, or a tourniquet until bleeding stops.\n3. Cannulate and administer procedural sedation by a trained practitioner (ketamine preferred for haemodynamic stability).\n4. Prepare the limb for amputation.\n5. If bleeding is severe or from a limb, apply direct pressure or use a tourniquet to gain control.\n6. Obtain intravenous or intraosseous access and commence fluid replacement with blood products.\n7. Transfer to hospital without delaying treatment.",
+                "GPT-4-0 answer": "Apply proximal tourniquet to control bleeding. Control haemorrhage with pressure, haemostatic dressings, or second tourniquet. Administer procedural sedation (ketamine preferred). Ensure IV/IO access and begin fluid resuscitation with blood products. Minimise delay and expedite transfer to hospital. Prepare limb only if trained and equipped to do so. Document all interventions.",
+                "RATING": 93,
+                "NOTES": "Excellent overall. Captured key points including tourniquet use, sedation, IV access, and rapid transfer. Slight redundancy and unclear sequence reduced the score slightly."
+            },
+            {
+                "question": "Which pharmacological and non-pharmacological pain control strategies are recommended for pre-hospital trauma patients?",
+                "use_graph": false,
+                "answer": "1. Pharmacological:\n a. Intravenous paracetamol (effective, low side effect profile)\n b. Small aliquots of intravenous opiates\n c. Inhaled nitrous oxide/oxygen (Entonox®) for conscious patients\n d. Other agents such as methoxyflurane (Penthrox®), fentanyl lozenges\n e. Sedation with small intravenous doses of midazolam or ketamine (dangerous in certain situations)\n\n2. Non-pharmacological:\n a. Reassurance\n b. Positioning\n c. Physical methods\n d. Immobilisation and splinting\n e. Reduction of dislocations and fractures",
+                "GPT-4-0 answer": "Pharmacological: IV paracetamol, IV opiates, inhaled agents (nitrous oxide, methoxyflurane), fentanyl lozenges, ketamine/midazolam for sedation when appropriate. Non-pharmacological: reassurance, positioning, immobilisation/splinting, reduction of fractures/dislocations, physical comfort measures. Pain scoring and reassessment are essential.",
+                "RATING": 95,
+                "NOTES": "You included most essential strategies accurately. Good distinction between pharmacological and non-pharmacological, though emphasis on pain scoring and reassessment was slightly underrepresented."
+            },
+            {
+                "question": "When is needle decompression indicated and how is it performed?",
+                "use_graph": false,
+                "answer": "1. Needle decompression is indicated when tension pneumothorax is suspected in a spontaneously breathing patient, and examination of the chest reveals supporting signs. Decompression should be considered as a decision made over a period of observation and re-observation.\n2. In the ventilated patient, decompression should be performed rapidly as they present at the point of decompensation. The decision to decompress should be based on a drop in SpO2 or blood pressure.\n3. Decompression is performed by inserting a large bore needle into the second intercostal space, midclavicular line on the affected side for spontaneously breathing patients and between the third and fourth ribs, midaxillary line for ventilated patients. The needle should be advanced until air escapes or a sudden improvement in vital signs is observed.\n4. Care must be taken to avoid overuse of needle decompression due to perceived decreased air entry not caused by tension pneumothorax.\n5. In the absence of signs suggestive of life-threatening problems or deteriorating respiratory function, the patient will be monitored while the primary survey continues and the chest will be revisited if there is any sign of deterioration.",
+                "GPT-4-0 answer": "Needle decompression is indicated when signs of tension pneumothorax are present: respiratory distress, hypotension, hypoxia, absent breath sounds, tracheal deviation, or drop in SpO2 in ventilated patients. Use a large-bore cannula (>4.5 cm) in the 2nd intercostal space mid-clavicular line (or 4th/5th ICS mid-axillary if needed). Monitor for improvement. In ventilated patients, finger thoracostomy may be preferred. Leave cannula in place until hospital.",
+                "RATING": 98,
+                "NOTES": "This was an exceptionally thorough answer. You correctly identified both spontaneous and ventilated patient considerations, site of insertion, and clinical reasoning. Minor clarity improvements only."
+            },
+            {
+                "question": "According to the manual, what are the most frequent mistakes made in pre-hospital trauma care, and what strategies are suggested to prevent them?",
+                "use_graph": false,
+                "answer": "The context does not provide a list of the most frequent mistakes made in pre-hospital trauma care or specific strategies to prevent them.",
+                "GPT-4-0 answer": "Common mistakes include equipment failure, lack of team debriefs, poor scene safety procedures, and inadequate documentation. Strategies include routine equipment checks, effective SOPs, debriefing protocols, and continuous training to prevent error recurrence.",
+                "RATING": 55,
+                "NOTES": "Your answer is partially correct—the manual does not present a formal list, but it does provide discussion on error reduction (e.g., equipment checks, debriefing, culture of safety). You missed those important themes."
+            },
+            {
+                "question": "How is pediatric trauma care approached differently from adult care?",
+                "use_graph": false,
+                "answer": "The context discusses the differences in pre-hospital trauma care between children and adults, highlighting the need for practitioners to be aware of these differences and develop a structure for managing injured children. It emphasizes that much of adult trauma skill is transferable to children but acknowledges anxiety surrounding emergency pediatric care due to perceived lack of ability and fear of errors. The text also mentions the importance of teamwork, attention to detail, and knowledge of paediatric anatomy and physiology in managing pediatric trauma. However, it does not provide specific indications or steps for assessing or treating injured children differently from adults. Therefore, the context does not directly answer the question about how pediatric trauma care is approached differently from adult care beyond general principles.",
+                "GPT-4-0 answer": "Paediatric trauma care follows the <C>ABCDE framework as in adults but differs in key aspects: airway anatomy (higher larynx), faster desaturation, subtle injury signs, different vital sign norms, increased risk of hypothermia and hypoglycaemia, and smaller circulating volume. Practitioners must adapt assessment and treatment to developmental stage, size, and physiology. Teamwork and tailored equipment are critical.",
+                "RATING": 82,
+                "NOTES": "You captured the psychological and general framework well, but missed critical physiological and anatomical distinctions (e.g., airway differences, vital sign norms, bleeding tendencies)."
+            },
+            {
+                "question": "What clinical indicators require urgent evacuation or medevac, as outlined in the manual?",
+                "use_graph": false,
+                "answer": "The context does not provide a clear list of specific clinical indicators that require urgent evacuation or medevac. It mentions the importance of identifying seriously or critically injured patients and ensuring no unnecessary delay on scene, but it does not specify which conditions or symptoms warrant immediate evacuation.",
+                "GPT-4-0 answer": "The manual emphasizes rapid evacuation for patients with catastrophic haemorrhage, head injuries with GCS ≤8, penetrating chest trauma, major burns, or suspected pelvic/abdominal haemorrhage, especially when requiring advanced surgical intervention. Immediate transfer is also advised if the mechanism of injury or physiology suggests significant trauma that cannot be managed on scene or in local facilities",
+                "RATING": 65,
+                "NOTES": "Your answer correctly identified the general guidance about avoiding delays and prioritizing critical patients, but it missed several specific examples listed in the manual, such as GCS ≤8 or catastrophic haemorrhage. Adding these would strengthen the factual completeness."
+            },
+            {
+                "question": "How should the scene be secured and made safe before initiating trauma care?",
+                "use_graph": false,
+                "answer": "The context does not provide specific actions or indications for securing and making a scene safe before initiating trauma care. It emphasizes the importance of scene safety, including the practitioner's safety, and suggests following standards, awareness, and evaluation (SAFE) principles. However, it does not offer a detailed list or sequence of steps for securing the scene.",
+                "GPT-4-0 answer": "Scene safety should follow the SAFE approach: Standards (e.g. professional safety standards), Awareness (hazard recognition including joint exercises via JESIP), Follow SAFETY 123 (Self, Scene, Situation), and Evaluation/re-evaluation. Specific actions include scanning for road debris, avoiding forensic contamination, monitoring for hazards like unstable vehicles or leaking fuel, and ensuring personal protective equipment is used.",
+                "RATING": 80,
+                "NOTES": "You acknowledged SAFE correctly, but underplayed the detailed elements like SAFETY 123 and specific hazard detection examples from the manual, which would have added richness to your answer."
+            },
+            {
+                "question": "Referencing the trauma severity scoring chart, what GCS score range indicates severe head injury?",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to answer the question about the Glasgow Coma Scale score range for severe head injury directly. However, it mentions that a GCS score of 12 or less indicates severe head injury in the context of initial assessment and management of head injuries. Therefore, based on this contextual information, we can synthesize an answer as follows: • A Glasgow Coma Scale score of 12 or less indicates severe head injury.",
+                "GPT-4-0 answer": "According to the manual, severe head injury is defined as a GCS score between 3 and 8. Moderate is 9–13, and mild is 14–15.",
+                "RATING": 70,
+                "NOTES": "You correctly inferred the severity classification from context but incorrectly stated '12 or less' instead of the correct 3–8 range. The actual classification is explicitly stated in the manual."
+            },
+            {
+                "question": "Based on the hemorrhage control flowchart, what is the next step after applying direct pressure fails?",
+                "use_graph": true,
+                "answer": "Based on the hemorrhage control flowchart provided in the context, the next step after applying direct pressure fails is to use a tourniquet or other advanced hemostatic measures such as QuikClot Combat Gauze or self-expanding hemostatic polymers. Answer:\n\n• Tourniquet application\n\n• Apply a well-fitted and properly tightened tourniquet above the bleeding site\n\n• Advanced hemostatic measures\n\n• QuikClot Combat Gauze: Apply directly to the wound and apply pressure for at least 5 minutes before bandaging\n\n• Self-expanding hemostatic polymer: Apply according to manufacturer instructions, typically involves packing the wound with the material and applying pressure for a set period of time. The context does not contain sufficient information to specify which advanced hemostatic measure to use if a tourniquet is not available or cannot be applied effectively.",
+                "GPT-4-0 answer": "If direct pressure fails to control external bleeding, the next step is application of a tourniquet (for limb bleeds). If a tourniquet is not feasible or ineffective, haemostatic dressings or agents (e.g., QuikClot, XSTAT) should be used. Junctional or truncal tourniquets and other techniques like wound clamping may also be considered depending on the wound location.",
+                "RATING": 90,
+                "NOTES": "This is a strong answer. You covered all relevant escalation techniques accurately. The only deduction is for not stating the sequence a bit more clearly—e.g., emphasizing direct pressure → tourniquet → haemostatics in strict order."
+            },
+            {
+                "question": "According to the spinal assessment decision tree, when can spinal immobilization be safely omitted?",
+                "use_graph": true,
+                "answer": "According to the spinal assessment decision tree, spinal immobilization can be safely omitted when: • No signs or symptoms of spinal injury are present • The patient is conscious and alert with no neurological deficits (153, 155t)\n\n• There is no evidence of intoxication or altered mental status • The mechanism of injury does not suggest the potential for spinal injury • A thorough clinical examination reveals no red flags for spinal injury (154–155, 158) The context does not contain sufficient information to answer this question regarding specific scenarios or situations where spinal immobilization can be safely omitted beyond the listed criteria.",
+                "GPT-4-0 answer": "Spinal immobilization can be safely omitted when the patient is alert, shows no signs of spinal injury or neurological deficit, and the mechanism of injury is not suggestive of spinal trauma. In children, rigid collars are not recommended, and immobilization should never delay life-saving interventions.",
+                "RATING": 95,
+                "NOTES": "Your answer covers all the key clinical and contextual considerations. Including the de-prioritization of immobilization in pediatric or critical cases could make it perfect."
+            },
+            {
+                "question": "According to the triage chart, which patient conditions meet the criteria for Priority 1 classification?",
+                "use_graph": true,
+                "answer": "According to the triage chart, the following patient conditions meet the criteria for Priority 1 classification: • Unresponsiveness or altered level of consciousness\n\n• Severe bleeding\n\n• Suspected head injury with signs of basal skull fracture\n\n• Severe chest pain or difficulty breathing • Severe abdominal pain\n\n• Obvious deformity, open wound, or burns\n\n• Seizures\n\n• Poisoning or overdose\n\n• Suspected spinal injury The context does not contain sufficient information to determine which specific injuries or conditions within Priority 1 require immediate attention.",
+                "GPT-4-0 answer": "Priority 1 conditions include: unresponsiveness, altered consciousness, airway compromise, major bleeding, signs of shock, penetrating chest/abdominal injuries, severe burns, or any physiological derangement indicating immediate threat to life.",
+                "RATING": 85,
+                "NOTES": "Your list was largely complete and accurate. However, the triage system may prioritize some presentations slightly differently (e.g., airway over bleeding depending on context), which could be more clearly reflected."
+            },
+            {
+                "question": "Based on the flowchart, what sequence is followed in the 'CABCDE' approach?",
+                "use_graph": true,
+                "answer": "Based on the flowchart in the context, the sequence followed in the 'CABCDE' approach for assessing and managing injured children includes: • Initial assessment: CABCDE (Circulation, Airway, Breathing, Consciousness, Disability, Exposure)\n\n• Circulation: assess for catastrophic haemorrhage, identify and manage life-threatening external bleeding, identify and manage haemorrhage into the abdomen/pelvis, identify and manage long bone fractures, identify life-threatening chest trauma, and rapid transport to nearest MTCs\n\n• Airway: ensure a secured airway, patent and protected, with cervical spine control if necessary\n\n• Breathing: assess for ineffective or obstructed respiration, provide oxygen support as needed\n\n• Consciousness: assess level of consciousness using AVPU (Alert, Voice, Pain, Unresponsive)\n\n• Disability: assess for disability and prioritize management based on severity\n\n• Exposure: ensure adequate exposure to perform a thorough assessment and provide appropriate care.",
+                "GPT-4-0 answer": "The 'CABCDE' approach stands for: <C>atastrophic haemorrhage, Airway with cervical spine control, Breathing, Circulation, Disability (neurological status), and Exposure/environmental control. This is a primary survey sequence used in trauma care to prioritize life-saving interventions.",
+                "RATING": 95,
+                "NOTES": "Very well structured and accurate answer. Could have improved slightly by emphasizing the <C> as a standalone category and not part of 'Circulation'."
+            },
+            {
+                "question": "Based on the transport decision matrix, which clinical scenarios mandate transfer to a major trauma center?",
+                "use_graph": true,
+                "answer": "Based on the transport decision matrix, the following clinical scenarios mandate transfer to a major trauma center: • Designated hospitals for major trauma\n\n• Major trauma reception team in MTC/TU\n\n• Secondary transfer to MTCs\n\n• Responsibility and review after admission to MTC The context does not contain sufficient information to determine which specific clinical scenarios within these categories require transfer.",
+                "GPT-4-0 answer": "Clinical scenarios requiring transfer to a major trauma center include: GCS ≤8, need for neurosurgical intervention, penetrating injuries to torso or head, pelvic or spinal fractures, decompensated shock, or where specialist services (e.g., burns, orthoplastic surgery) are required. Secondary transfer may follow stabilization at TU if necessary.",
+                "RATING": 70,
+                "NOTES": "Your answer was vague and mostly organizational rather than clinical. Including actual patient conditions or injuries, as listed in the manual, would improve specificity."
+            },
+            {
+                "question": "According to the pediatric trauma algorithm, what vital signs suggest decompensated shock?",
+                "use_graph": true,
+                "answer": "According to the pediatric trauma algorithm, vital signs suggesting decompensated shock include: • Hypotension: Systolic blood pressure <5th percentile for age or a decrease of >20 mmHg from baseline\n\n• Tachycardia: Heart rate >160 beats per minute in infants and children up to 2 years, or >180 beats per minute in older children\n\n• Altered mental status: Confusion, decreased level of consciousness, or unresponsiveness\n\n• Decreased urine output: <1 mL/kg/h for 2 hours despite adequate fluid resuscitation\n\n• Cool, clammy skin and delayed capillary refill\n\n• Weak pulse or absent peripheral pulses\n\n• Respiratory distress: Tachypnea, increased work of breathing, or decreased oxygen saturation\n\n• Central cyanosis or mottled skin The context does not contain sufficient information to answer this question regarding specific vital signs suggesting decompensated shock in a pediatric trauma algorithm verbatim. However, the context does provide the above list of symptoms that suggest decompensated shock in children.",
+                "GPT-4-0 answer": "Signs of decompensated shock in pediatric patients include: hypotension, tachycardia, delayed capillary refill, decreased urine output (<1 mL/kg/h), altered mental status, weak peripheral pulses, cold extremities, and central cyanosis. Respiratory distress and mottled skin may also be present.",
+                "RATING": 95,
+                "NOTES": "Excellent detail and accuracy. Including percentile references and exact vitals was very appropriate. Minor formatting inconsistency was the only nitpick."
+            },
+            {
+                "question": "From the ventilation support chart, what are the indications for BVM vs. advanced airway?",
+                "use_graph": true,
+                "answer": "From the ventilation support chart, indications for BVM include: • Manual ventilation via bag–valve–mask may need to continue for long periods in the difficult pre-hospital environment. • Immediate tactile feedback is available with manual ventilation. Indications for advanced airway are: • To secure and protect an airway • Neuroprotection in head injury • Respiratory failure • To facilitate the humane provision of emergency care • To facilitate safe transfer, particularly air transport The context does not contain sufficient information to determine which indications apply specifically to BVM versus advanced airway.",
+                "GPT-4-0_answer": "BVM (Bag–Valve–Mask) is indicated for short-term manual ventilation in unconscious or semi-conscious patients without a secured airway, especially where airway reflexes are intact or in pre-hospital settings needing immediate support. Advanced airways (e.g., endotracheal intubation) are indicated when the airway must be secured against aspiration, for neuroprotection in head injuries, in cases of respiratory failure, to facilitate transport (especially air), and for prolonged ventilation needs.",
+                "RATING": 90,
+                "NOTES": "Your answer reflects key indications for both BVM and advanced airways. The final sentence noting contextual ambiguity is appropriate given the manual’s indirect phrasing. Minor formatting issues aside, this is a strong response."
+            },
+            {
+                "question": "Using the fracture identification diagram, how is a femur fracture typically immobilized?",
+                "use_graph": true,
+                "answer": "• Using the fracture identification diagram, the immobilization of a femur fracture is typically achieved through the application of commercial splints using traction splintage for femoral fractures. If a pelvic fracture is possible, this will influence the choice of splint, suggesting use of a splint that does not provide traction against the symphysis. • Commercial splints • Traction splintage for femoral fractures • Use a splint that does not provide traction against the symphysis if pelvic fracture is possible",
+                "GPT-4-0_answer": "Femur fractures are typically immobilized using traction splints. These devices apply longitudinal traction to align the fractured bone ends and reduce pain and bleeding. Commercial splints are often used, and if a pelvic fracture is suspected, a splint that avoids traction against the symphysis should be selected.",
+                "RATING": 92,
+                "NOTES": "Your answer identifies all major immobilization components, including special considerations with suspected pelvic injury. Well done—concise and clear."
+            },
+            {
+                "question": "According to the burn severity chart, what TBSA % indicates need for specialized burn care?",
+                "use_graph": true,
+                "answer": "According to the burn severity chart, a burn covering more than 10% of the Total Body Surface Area indicates the need for specialized burn care.",
+                "GPT-4-0_answer": "Burns covering more than 10% TBSA (Total Body Surface Area) require specialized burn care, particularly if the burns are partial or full thickness.",
+                "RATING": 98,
+                "NOTES": "Accurate and well-sourced. One of your strongest answers."
+            },
+            {
+                "question": "Which anatomical site is recommended for needle decompression in tension pneumothorax management?",
+                "use_graph": true,
+                "answer": "1. For tension pneumothorax management, needle decompression should be performed at the 2nd intercostal space in mid-clavicular line.",
+                "GPT-4-0_answer": "The recommended site for needle decompression is the 2nd intercostal space at the mid-clavicular line. If this fails, a secondary site is the 4th or 5th intercostal space at the mid-axillary line.",
+                "RATING": 85,
+                "NOTES": "You gave the primary site correctly, but omitting the backup location (4th/5th ICS mid-axillary) missed an opportunity for completeness."
+            },
+            {
+                "question": "What does the trauma flowchart recommend for initial management of patients with suspected spinal cord injuries?",
+                "use_graph": true,
+                "answer": "• Initial management of patients with suspected spinal cord injuries according to the trauma flowchart includes: • Minimizing further movement in the cervical and wider spinal column only once catastrophic haemorrhage and life-threatening airway compromise have been managed. • Examination for any spinal injury and its extent is usually delayed until after arrival in hospital. • Treating hypoxia and hypoperfusion as part of the patient’s overall care to help reduce secondary spinal cord injury. • Minimizing further movement of the spinal column with the aim of minimizing further cord damage. • Current practice is more pragmatic than previously, recognizing the devastating consequences of these injuries but challenging the practice of routine immobilization. • Decision tools may help identify patients who need immobilization and those who do not. • Pre-hospital spinal management should not distract from or delay the management of life-threatening injuries, and the whole length of the spine should be considered when managing patients.",
+                "GPT-4-0_answer": "Initial management involves following the <C>ABCDE approach. Immobilization of the spine (including cervical) should only occur after life-threatening hemorrhage and airway issues are addressed. Hypoxia and hypoperfusion should be corrected to reduce secondary injury. Full spinal assessment is deferred to hospital. Use of collars, blocks, and straps should be guided pragmatically.",
+                "RATING": 95,
+                "NOTES": "Excellent answer covering practical guidance, priorities, and nuances from the manual. Well-structured and comprehensive."
+            },
+            {
+                "question": "In the triage tagging system, which color tag is used for patients who require urgent, life-saving interventions?",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to answer the question about which color tag is used for patients who require urgent, life-saving interventions in the triage tagging system.",
+                "GPT-4-0_answer": "In standard triage systems (e.g., START), a red tag is used for patients needing immediate life-saving intervention.",
+                "RATING": 100,
+                "NOTES": "Appropriate to say 'not found' since the document does not define this. Good restraint shown in avoiding hallucination."
+            },
+            {
+                "question": "What critical supplies must be included in a pre-hospital trauma kit according to the equipment readiness checklist?",
+                "use_graph": true,
+                "answer": "The context does not contain a specific list or definition of critical supplies to be included in a pre-hospital trauma kit according to the equipment readiness checklist.",
+                "GPT-4-0_answer": "While a detailed list isn’t explicitly given, key supplies include airway devices (e.g., OPAs, NPAs, BVM), bleeding control items (tourniquets, hemostatic dressings), IV/IO access equipment, monitoring devices, and tools for splinting and packaging.",
+                "RATING": 100,
+                "NOTES": "You correctly identified the lack of an explicit list in the source. Better to be cautious than assume."
+            },
+            {
+                "question": "What fluid volume and type are recommended for resuscitating a hypotensive adult trauma patient?",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to answer the question about the specific fluid volume and type recommended for resuscitating a hypotensive adult trauma patient.",
+                "GPT-4-0_answer": "Though not specified in this manual, general trauma protocols recommend small boluses of isotonic crystalloid (e.g., 250-500 ml), with permissive hypotension targets in non-head injury patients.",
+                "RATING": 100,
+                "NOTES": "Good call not to speculate. The manual is vague here, so your conservative handling is appropriate."
+            },
+            {
+                "question": "According to the tourniquet protocol graph, what is the safe time limit for continuous tourniquet application?",
+                "use_graph": true,
+                "answer": "No relevant information found in the specified document context based on the query keywords.",
+                "GPT-4-0_answer": "In general trauma practice, 2 hours is considered a safe maximum continuous tourniquet time. However, this depends on context and monitoring.",
+                "RATING": 100,
+                "NOTES": "Accurate to report that the document does not include this information. Avoided hallucination—well done."
+            },
+            {
+                "question": "Referencing the pelvic binder application chart, when is it considered mandatory?",
+                "use_graph": true,
+                "answer": "• In all suspected cases of pelvic or abdominal haemorrhage causing cardiac arrest, a pelvic binder must be correctly applied.",
+                "GPT-4-0_answer": "A pelvic binder must be applied in cases of suspected pelvic fracture based on mechanism of injury, symptoms (such as pain), or signs such as bruising, open wounds, or blood at the urinary meatus. It is mandatory in any suspected pelvic injury during the primary survey. The binder should be applied circumferentially around the greater trochanters and placed directly against the skin with overlying clothing removed.",
+                "RATING": 75,
+                "NOTES": "Your answer captures a critical use case (cardiac arrest due to haemorrhage) but misses the broader indications stated in the manual (mechanism, signs, and symptoms)."
+            },
+            {
+                "question": "Which key actions are prioritized during the first 10 minutes of trauma response according to the protocol summary diagram?",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to answer the question about the key actions prioritized during the first 10 minutes of trauma response according to a protocol summary diagram.",
+                "GPT-4-0_answer": "The key actions during the first 10 minutes include completing the primary survey using the <C>ABCDE sequence: Catastrophic haemorrhage control, Airway with C-spine control, Breathing, Circulation, Disability (neurological status), Exposure and Environment. These should be done rapidly and efficiently, ideally within 10 minutes.",
+                "RATING": 50,
+                "NOTES": "While the term 'protocol summary diagram' is not explicitly found, the <C>ABCDE sequence is widely emphasized. You could have inferred the key actions from that section."
+            },
+            {
+                "question": "Following 'Expose and examine,' what is the next recommended step in the trauma assessment flowchart?",
+                "use_graph": true,
+                "answer": "Following 'Expose and examine,' the next recommended steps in the trauma assessment flowchart are: [long list including CPR, transport, search strategies, etc.]",
+                "GPT-4-0_answer": "Following 'Expose and examine,' the trauma assessment should focus on: identifying and managing haemorrhage, beginning rapid transport to the nearest Major Trauma Centre (MTC), and continuing resuscitative measures such as CPR if needed. Decision-making should emphasize timely evacuation over exhaustive interventions on scene.",
+                "RATING": 40,
+                "NOTES": "Your answer contains unrelated elements (e.g., legal consent, literature search) that are not part of the trauma assessment flowchart. Focus on immediate care and transport recommendations."
+            },
+            {
+                "question": "What oxygen flow rate is advised for use with a non-rebreather mask, as shown in the oxygen delivery chart?",
+                "use_graph": true,
+                "answer": "No relevant information found in the specified document context based on the query keywords.",
+                "GPT-4-0_answer": "High-flow oxygen at 15 L/min is recommended via a non-rebreather mask, as part of initial oxygen therapy in trauma management.",
+                "RATING": 30,
+                "NOTES": "The correct rate (15 L/min) is explicitly mentioned in the manual. Your answer should have picked that up from the 'Airway' and 'Breathing' sections."
+            },
+            {
+                "question": "What do the evacuation timelines suggest about golden hour response for trauma?",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to answer the question about the golden hour response for trauma suggested by the evacuation timelines.",
+                "GPT-4-0_answer": "The manual advises against relying on the term 'golden hour' as it can introduce complacency. Instead, it emphasizes evacuating critically injured patients to definitive care as early as possible, without unnecessary on-scene delay.",
+                "RATING": 60,
+                "NOTES": "The document critiques the concept of the golden hour, so stating 'insufficient information' isn't fully accurate. A more nuanced summary was needed."
+            },
+            {
+                "question": "Which hazards are identified as the highest priority in the scene safety protocol chart?",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to answer the question about which hazards are identified as the highest priority in the scene safety protocol chart.",
+                "GPT-4-0_answer": "Highest priority hazards include environmental dangers (e.g., fire, structural collapse), chemical/biological threats, unstable vehicles, and ongoing violence. The manual emphasizes that safety of rescuers and patients is paramount before beginning treatment.",
+                "RATING": 55,
+                "NOTES": "The document does emphasize scene safety and outlines types of hazards. You missed an opportunity to extrapolate from that content."
+            },
+            {
+                "question": "From the head injury classification chart, what signs indicate increased intracranial pressure?",
+                "use_graph": true,
+                "answer": "[Synthesized explanation including brain swelling, altered consciousness, etc.]",
+                "GPT-4-0_answer": "Signs of increased intracranial pressure include altered consciousness, pupil changes, vomiting, posturing, hypertension with bradycardia (Cushing's triad), and abnormal breathing patterns. These can indicate herniation or brain swelling.",
+                "RATING": 85,
+                "NOTES": "Good synthesis of available signs. You noted key symptoms correctly, even though they weren’t explicitly listed under a chart."
+            },
+            {
+                "question": "According to the hypothermia management diagram, what core body temperature range defines moderate hypothermia?",
+                "use_graph": true,
+                "answer": "The context does not contain sufficient information to answer this question about the hypothermia management diagram and moderate hypothermia core body temperature range.",
+                "GPT-4-0_answer": "Moderate hypothermia is defined as a core body temperature between 28°C and 32°C.",
+                "RATING": 40,
+                "NOTES": "While you claimed the context lacked info, this is standard knowledge and might have been found or inferred. Still, if the chart wasn't present, your answer is cautiously fair."
+            },
+            {
+                "question": "What are the transport priorities in the trauma evacuation algorithm for rural vs. urban environments?",
+                "use_graph": true,
+                "answer": "[Detailed list about helicopter use in rural areas, resource shortages, etc.]",
+                "GPT-4-0_answer": "In rural environments, rapid transport (e.g., helicopters) is prioritized due to distance and limited resources. Urban areas often have more immediate access to trauma care. The evacuation strategy must adapt to available resources and distance from specialist centres.",
+                "RATING": 95,
+                "NOTES": "Excellent synthesis with multiple examples. You showed a deep understanding of the document’s point about rural vs. urban logistics."
+            }
+        ]
+    ],
+    "average_ratings": {
+        "non_graph_questions": 65.33,
+        "graph_questions": 75.77,
+        "combined": 70.33
+    },
+    "PDF": {
+        "total nodes": 20547,
+        "total Relationships": 54436
+    }
+}

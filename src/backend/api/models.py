@@ -35,3 +35,21 @@ class SourceDocument(BaseModel):
 class ChatResponse(BaseModel):
     answer: str = Field(description="The generated answer from the assistant.")
     sources: List[SourceDocument] = Field(default_factory=list, description="List of source document chunks used to generate the answer, including metadata.")
+
+class BatchChatRequestItem(BaseModel):
+    question: str
+    use_graph: bool = False
+
+class BatchChatRequest(BaseModel):
+    questions: List[BatchChatRequestItem]
+    document_title: Optional[str] = None
+
+class BatchChatResponseItem(BaseModel):
+    question: str
+    use_graph: bool
+    answer: Optional[str] = None
+    error: Optional[str] = None
+    sources: Optional[List[SourceDocument]] = None
+
+class BatchChatResponse(BaseModel):
+    results: List[BatchChatResponseItem]
