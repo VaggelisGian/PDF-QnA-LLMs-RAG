@@ -103,7 +103,7 @@
                 "answer": "1. Signs of shock (pallor, poor capillary refill, sweating, cool extremities or clamminess, weak peripheral pulses, reduction in pulse pressure, agitation, confusion or irritability, tachypnoea).\n2. Immediate access to circulation with peripheral intravenous access or intraosseous access if necessary.\n3. Identify and control sources of bleeding with minimal further tissue damage.\n4. Preservation of blood and optimization of coagulation.\n5. Control of haemorrhage, preservation of intravascular volume, and management of physiological consequences of relative and absolute hypovolaemia are the cornerstones of shock management.",
                 "GPT-4-0 answer": "Recognition: pallor, delayed capillary refill, weak pulses, low pulse pressure, confusion, tachypnea. Management: control bleeding, preserve intravascular volume, early IV/IO access, warmed crystalloid only if no blood products are available. Use a haemostatic resuscitation strategy: reduce bleeding, optimise coagulation, minimise harm, improve physiology. Prioritise blood products if available.",
                 "RATING": 93,
-                "NOTES": "You accurately outlined signs and steps. Great job. Slight improvements possible by clarifying ‘preservation of blood’ as use of blood products or restrictive fluid resuscitation."
+                "NOTES": "You accurately outlined signs and steps. Great job. Slight improvements possible by clarifying ‘preservation of blood' as use of blood products or restrictive fluid resuscitation."
             },
             {
                 "question": "What are the precautions for moving a patient with suspected pelvic fractures?",
@@ -263,7 +263,7 @@
                 "answer": "From the ventilation support chart, indications for BVM include: • Manual ventilation via bag-valve-mask may need to continue for long periods in the difficult pre-hospital environment. • Immediate tactile feedback is available with manual ventilation. Indications for advanced airway are: • To secure and protect an airway • Neuroprotection in head injury • Respiratory failure • To facilitate the humane provision of emergency care • To facilitate safe transfer, particularly air transport The context does not contain sufficient information to determine which indications apply specifically to BVM versus advanced airway.",
                 "GPT-4-0_answer": "BVM (Bag-Valve-Mask) is indicated for short-term manual ventilation in unconscious or semi-conscious patients without a secured airway, especially where airway reflexes are intact or in pre-hospital settings needing immediate support. Advanced airways (e.g., endotracheal intubation) are indicated when the airway must be secured against aspiration, for neuroprotection in head injuries, in cases of respiratory failure, to facilitate transport (especially air), and for prolonged ventilation needs.",
                 "RATING": 90,
-                "NOTES": "Your answer reflects key indications for both BVM and advanced airways. The final sentence noting contextual ambiguity is appropriate given the manual’s indirect phrasing. Minor formatting issues aside, this is a strong response."
+                "NOTES": "Your answer reflects key indications for both BVM and advanced airways. The final sentence noting contextual ambiguity is appropriate given the manual's indirect phrasing. Minor formatting issues aside, this is a strong response."
             },
             {
                 "question": "Using the fracture identification diagram, how is a femur fracture typically immobilized?",
@@ -292,7 +292,7 @@
             {
                 "question": "What does the trauma flowchart recommend for initial management of patients with suspected spinal cord injuries?",
                 "use_graph": true,
-                "answer": "• Initial management of patients with suspected spinal cord injuries according to the trauma flowchart includes: • Minimizing further movement in the cervical and wider spinal column only once catastrophic haemorrhage and life-threatening airway compromise have been managed. • Examination for any spinal injury and its extent is usually delayed until after arrival in hospital. • Treating hypoxia and hypoperfusion as part of the patient’s overall care to help reduce secondary spinal cord injury. • Minimizing further movement of the spinal column with the aim of minimizing further cord damage. • Current practice is more pragmatic than previously, recognizing the devastating consequences of these injuries but challenging the practice of routine immobilization. • Decision tools may help identify patients who need immobilization and those who do not. • Pre-hospital spinal management should not distract from or delay the management of life-threatening injuries, and the whole length of the spine should be considered when managing patients.",
+                "answer": "• Initial management of patients with suspected spinal cord injuries according to the trauma flowchart includes: • Minimizing further movement in the cervical and wider spinal column only once catastrophic haemorrhage and life-threatening airway compromise have been managed. • Examination for any spinal injury and its extent is usually delayed until after arrival in hospital. • Treating hypoxia and hypoperfusion as part of the patient's overall care to help reduce secondary spinal cord injury. • Minimizing further movement of the spinal column with the aim of minimizing further cord damage. • Current practice is more pragmatic than previously, recognizing the devastating consequences of these injuries but challenging the practice of routine immobilization. • Decision tools may help identify patients who need immobilization and those who do not. • Pre-hospital spinal management should not distract from or delay the management of life-threatening injuries, and the whole length of the spine should be considered when managing patients.",
                 "GPT-4-0_answer": "Initial management involves following the <C>ABCDE approach. Immobilization of the spine (including cervical) should only occur after life-threatening hemorrhage and airway issues are addressed. Hypoxia and hypoperfusion should be corrected to reduce secondary injury. Full spinal assessment is deferred to hospital. Use of collars, blocks, and straps should be guided pragmatically.",
                 "RATING": 95,
                 "NOTES": "Excellent answer covering practical guidance, priorities, and nuances from the manual. Well-structured and comprehensive."
@@ -309,7 +309,7 @@
                 "question": "What critical supplies must be included in a pre-hospital trauma kit according to the equipment readiness checklist?",
                 "use_graph": true,
                 "answer": "The context does not contain a specific list or definition of critical supplies to be included in a pre-hospital trauma kit according to the equipment readiness checklist.",
-                "GPT-4-0_answer": "While a detailed list isn’t explicitly given, key supplies include airway devices (e.g., OPAs, NPAs, BVM), bleeding control items (tourniquets, hemostatic dressings), IV/IO access equipment, monitoring devices, and tools for splinting and packaging.",
+                "GPT-4-0_answer": "While a detailed list isn't explicitly given, key supplies include airway devices (e.g., OPAs, NPAs, BVM), bleeding control items (tourniquets, hemostatic dressings), IV/IO access equipment, monitoring devices, and tools for splinting and packaging.",
                 "RATING": 100,
                 "NOTES": "You correctly identified the lack of an explicit list in the source. Better to be cautious than assume."
             },
@@ -383,7 +383,7 @@
                 "answer": "[Synthesized explanation including brain swelling, altered consciousness, etc.]",
                 "GPT-4-0_answer": "Signs of increased intracranial pressure include altered consciousness, pupil changes, vomiting, posturing, hypertension with bradycardia (Cushing's triad), and abnormal breathing patterns. These can indicate herniation or brain swelling.",
                 "RATING": 85,
-                "NOTES": "Good synthesis of available signs. You noted key symptoms correctly, even though they weren’t explicitly listed under a chart."
+                "NOTES": "Good synthesis of available signs. You noted key symptoms correctly, even though they weren't explicitly listed under a chart."
             },
             {
                 "question": "According to the hypothermia management diagram, what core body temperature range defines moderate hypothermia?",
@@ -399,7 +399,7 @@
                 "answer": "[Detailed list about helicopter use in rural areas, resource shortages, etc.]",
                 "GPT-4-0_answer": "In rural environments, rapid transport (e.g., helicopters) is prioritized due to distance and limited resources. Urban areas often have more immediate access to trauma care. The evacuation strategy must adapt to available resources and distance from specialist centres.",
                 "RATING": 95,
-                "NOTES": "Excellent synthesis with multiple examples. You showed a deep understanding of the document’s point about rural vs. urban logistics."
+                "NOTES": "Excellent synthesis with multiple examples. You showed a deep understanding of the document's point about rural vs. urban logistics."
             }
         ]
     ],
